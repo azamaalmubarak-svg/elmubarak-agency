@@ -1,0 +1,699 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>ELMUBARAK — نُحوّل التعقيد إلى قرار</title>
+<meta name="description" content="ELMUBARAK — استشارات تسويق وتطوير أعمال. نبدأ بالتشخيص: نحدد ما يُعطّل النمو فعلًا، ونبني قرارًا قابلًا للقياس.">
+<link rel="canonical" href="https://spontaneous-chimera-69ca60.netlify.app/">
+<link rel="icon" type="image/png" href="data:image/png;base64,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">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="ELMUBARAK">
+<meta property="og:title" content="ELMUBARAK — نُحوّل التعقيد إلى قرار">
+<meta property="og:description" content="استشارات تسويق وتطوير أعمال. نبدأ بالتشخيص: نحدد ما يُعطّل النمو فعلًا، ونبني قرارًا قابلًا للقياس.">
+<meta property="og:url" content="https://spontaneous-chimera-69ca60.netlify.app/">
+<meta property="og:locale" content="ar_AR">
+<meta property="og:locale:alternate" content="en_US">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="ELMUBARAK — نُحوّل التعقيد إلى قرار">
+<meta name="twitter:description" content="استشارات تسويق وتطوير أعمال. نبدأ بالتشخيص، لا بالحملة.">
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ProfessionalService",
+  "name": "ELMUBARAK",
+  "description": "استشارات تسويق وتطوير أعمال تبدأ بالتشخيص قبل أي تكتيك.",
+  "url": "https://spontaneous-chimera-69ca60.netlify.app/",
+  "email": "azamaalmubarak@gmail.com",
+  "telephone": "+249999920087",
+  "areaServed": "SD",
+  "founder": {
+    "@type": "Person",
+    "name": "عبدالعظيم المبارك"
+  },
+  "makesOffer": {
+    "@type": "Offer",
+    "itemOffered": {
+      "@type": "Service",
+      "name": "تشخيص الأعمال والتسويق"
+    }
+  }
+}
+</script>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lemonada:wght@400;500;600;700&family=Amiri:ital,wght@0,400;0,700;1,400&family=Cormorant+Garamond:wght@400;500;600&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+:root{
+  --ink:#12202E;
+  --navy:#1A2C3F;
+  --gold:#C2A36C;
+  --gold-soft:rgba(194,163,108,.28);
+  --paper:#F9F8F6;
+  --slate:#5C6B7A;
+
+  --bg:var(--paper);
+  --fg:var(--navy);
+  --muted:var(--slate);
+  --rule:rgba(26,44,63,.14);
+  --surface:#FFFFFF;
+  --surface-2:#F2F0EC;
+  --accent:var(--gold);
+  --accent-ink:#8A6F3C;
+  --shadow:0 1px 0 rgba(26,44,63,.06);
+}
+@media (prefers-color-scheme: dark){
+  :root:not([data-theme="light"]){
+    --bg:#0F1B26;
+    --fg:#F3F1EC;
+    --muted:#9FB0BF;
+    --rule:rgba(243,241,236,.16);
+    --surface:#162533;
+    --surface-2:#1B2E3E;
+    --accent:#D4B77E;
+    --accent-ink:#D4B77E;
+    --shadow:none;
+  }
+}
+:root[data-theme="dark"]{
+  --bg:#0F1B26;
+  --fg:#F3F1EC;
+  --muted:#9FB0BF;
+  --rule:rgba(243,241,236,.16);
+  --surface:#162533;
+  --surface-2:#1B2E3E;
+  --accent:#D4B77E;
+  --accent-ink:#D4B77E;
+  --shadow:none;
+}
+
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+@media (prefers-reduced-motion: reduce){html{scroll-behavior:auto}*{animation:none!important;transition:none!important}}
+body{
+  margin:0;background:var(--bg);color:var(--fg);
+  -webkit-font-smoothing:antialiased;
+  font-size:17px;line-height:1.85;
+}
+html[lang="ar"] body{font-family:"Amiri","Noto Naskh Arabic",Georgia,serif;}
+html[lang="ar"] h1,html[lang="ar"] h2,html[lang="ar"] h3,html[lang="ar"] .display,html[lang="ar"] .btn,html[lang="ar"] .nav a,html[lang="ar"] .mark{font-family:"Lemonada","Amiri",system-ui,sans-serif;}
+html[lang="en"] body{font-family:"Inter",system-ui,-apple-system,sans-serif;font-size:16px;line-height:1.7;}
+html[lang="en"] h1,html[lang="en"] h2,html[lang="en"] .display{font-family:"Cormorant Garamond",Georgia,serif;}
+html[lang="en"] h3,html[lang="en"] .btn,html[lang="en"] .nav a,html[lang="en"] .mark{font-family:"Inter",system-ui,sans-serif;}
+
+img{max-width:100%}
+a{color:inherit}
+:focus-visible{outline:2px solid var(--accent);outline-offset:3px;border-radius:2px}
+
+.wrap{width:100%;max-width:1060px;margin-inline:auto;padding-inline:22px}
+section{padding-block:clamp(56px,9vw,104px);border-top:1px solid var(--rule)}
+section:first-of-type{border-top:0}
+h2{font-size:clamp(25px,4.6vw,38px);line-height:1.35;margin:0 0 10px;font-weight:600;letter-spacing:-.01em}
+h3{font-size:18px;margin:0 0 6px;font-weight:600}
+p{margin:0 0 16px;max-width:66ch}
+.lede{color:var(--muted);font-size:clamp(16px,2.4vw,19px);max-width:62ch}
+.mark{font-size:12.5px;letter-spacing:.06em;color:var(--accent-ink);margin:0 0 18px;font-weight:600}
+
+/* ---------- header ---------- */
+header{position:sticky;top:0;z-index:50;background:color-mix(in srgb,var(--bg) 92%,transparent);backdrop-filter:blur(10px);border-bottom:1px solid var(--rule)}
+.bar{display:flex;align-items:center;gap:16px;min-height:62px}
+.logo{display:flex;align-items:center;gap:10px;text-decoration:none;flex:0 0 auto}
+.logo .glyph{width:22px;height:auto;flex:0 0 auto;display:block}
+.logo .glyph-dark{display:none}
+@media (prefers-color-scheme: dark){:root:not([data-theme="light"]) .logo .glyph-light{display:none}:root:not([data-theme="light"]) .logo .glyph-dark{display:block}}
+:root[data-theme="dark"] .logo .glyph-light{display:none}
+:root[data-theme="dark"] .logo .glyph-dark{display:block}
+.logo b{font-family:"Inter",sans-serif;font-weight:600;font-size:15px;letter-spacing:.16em}
+.nav{display:none;gap:22px;margin-inline-start:auto;font-size:14px}
+.nav a{text-decoration:none;color:var(--muted);padding-block:6px;border-bottom:1.5px solid transparent}
+.nav a:hover{color:var(--fg);border-color:var(--accent)}
+.tools{display:flex;align-items:center;gap:8px;margin-inline-start:auto}
+.nav+.tools{margin-inline-start:0}
+.lang{background:none;border:1px solid var(--rule);color:var(--muted);border-radius:999px;padding:6px 13px;font:inherit;font-size:13px;cursor:pointer}
+.lang:hover{border-color:var(--accent);color:var(--fg)}
+@media(min-width:900px){.nav{display:flex}}
+
+/* ---------- buttons ---------- */
+.btn{display:inline-flex;align-items:center;justify-content:center;gap:8px;text-decoration:none;font-size:15px;font-weight:600;padding:13px 24px;border-radius:2px;border:1px solid transparent;cursor:pointer;background:none;font-family:inherit}
+.btn-primary{background:var(--navy);color:#F9F8F6;border-color:var(--navy)}
+:root[data-theme="dark"] .btn-primary,
+:root:not([data-theme="light"]) .btn-primary{}
+@media (prefers-color-scheme: dark){:root:not([data-theme="light"]) .btn-primary{background:var(--accent);color:#12202E;border-color:var(--accent)}}
+:root[data-theme="dark"] .btn-primary{background:var(--accent);color:#12202E;border-color:var(--accent)}
+.btn-primary:hover{background:var(--ink)}
+.btn-ghost{border-color:var(--rule);color:var(--fg)}
+.btn-ghost:hover{border-color:var(--accent)}
+.btns{display:flex;flex-wrap:wrap;gap:12px;margin-top:26px}
+
+/* ---------- hero ---------- */
+.hero{padding-block:clamp(60px,12vw,120px) clamp(48px,8vw,88px)}
+.hero .display{font-size:clamp(34px,8.4vw,68px);line-height:1.22;font-weight:600;margin:0 0 22px;letter-spacing:-.015em;max-width:15ch}
+html[lang="en"] .hero .display{font-size:clamp(40px,9vw,76px);line-height:1.08;max-width:14ch}
+.hero .rule{width:64px;height:2px;background:var(--accent);margin-bottom:26px}
+.reveal{opacity:0;transform:translateY(10px);animation:rise .7s cubic-bezier(.2,.7,.3,1) forwards}
+.reveal:nth-child(2){animation-delay:.08s}
+.reveal:nth-child(3){animation-delay:.16s}
+.reveal:nth-child(4){animation-delay:.24s}
+@keyframes rise{to{opacity:1;transform:none}}
+@media (prefers-reduced-motion: reduce){.reveal{opacity:1;transform:none}}
+
+/* ---------- argument list ---------- */
+.claims{list-style:none;margin:26px 0 0;padding:0;border-top:1px solid var(--rule);max-width:62ch}
+.claims li{padding-block:15px;border-bottom:1px solid var(--rule);display:flex;gap:14px;align-items:baseline}
+.claims li::before{content:"";width:5px;height:5px;background:var(--accent);flex:0 0 auto;transform:translateY(-3px)}
+
+/* ---------- 5D sequence ---------- */
+.steps{counter-reset:s;margin-top:30px;border-top:1px solid var(--rule)}
+.step{counter-increment:s;display:grid;grid-template-columns:auto 1fr;gap:6px 18px;padding-block:20px;border-bottom:1px solid var(--rule);align-items:baseline}
+.step::before{content:counter(s,decimal-leading-zero);font-family:"Inter",sans-serif;font-size:13px;color:var(--accent-ink);font-weight:600;grid-row:span 2}
+.step p{margin:0;color:var(--muted);font-size:15.5px}
+.step h3{margin:0}
+.step h3 span{color:var(--muted);font-weight:400;font-size:14px;font-family:"Inter",sans-serif;margin-inline-start:8px;letter-spacing:.04em}
+
+/* ---------- scorecard ---------- */
+.card{background:var(--surface);border:1px solid var(--rule);box-shadow:var(--shadow);padding:clamp(18px,3.4vw,30px);margin-top:28px}
+.lens{display:grid;grid-template-columns:1fr auto;gap:8px 12px;align-items:center;padding-block:11px;border-bottom:1px solid var(--rule)}
+.lens:last-of-type{border-bottom:0}
+.lens-name{font-size:15.5px;font-weight:600}
+.dots{display:flex;gap:6px}
+.dot{width:26px;height:26px;border:1px solid var(--rule);background:transparent;border-radius:50%;cursor:pointer;font:inherit;font-size:12px;color:var(--muted);display:grid;place-items:center;padding:0;line-height:1}
+.dot:hover{border-color:var(--accent)}
+.dot[aria-pressed="true"]{background:var(--accent);border-color:var(--accent);color:#12202E;font-weight:700}
+.result{margin-top:22px;padding:18px;border:1px solid var(--gold-soft);background:var(--surface-2)}
+.result[hidden]{display:none}
+.result strong{color:var(--accent-ink)}
+.result .small{font-size:14px;color:var(--muted);margin:10px 0 0}
+
+/* ---------- deliverables + tiers ---------- */
+.cols{display:grid;gap:26px;margin-top:28px}
+@media(min-width:780px){.cols{grid-template-columns:1fr 1fr;gap:38px}}
+.list{list-style:none;margin:0;padding:0}
+.list li{padding-block:9px;border-bottom:1px solid var(--rule);font-size:15.5px}
+.list li:last-child{border-bottom:0}
+.tiers{display:grid;gap:0;margin-top:30px;border-top:1px solid var(--rule)}
+.tier{padding-block:22px;border-bottom:1px solid var(--rule)}
+.tier h3{display:flex;align-items:baseline;gap:10px}
+.tier h3 em{font-style:normal;font-size:12.5px;color:var(--accent-ink);font-family:"Inter",sans-serif;letter-spacing:.05em}
+.tier p{color:var(--muted);font-size:15.5px;margin:4px 0 0}
+.note{font-size:14.5px;color:var(--muted);margin-top:20px;padding-inline-start:14px;border-inline-start:2px solid var(--accent)}
+
+/* ---------- ladder ---------- */
+.ladder{display:grid;gap:0;margin-top:28px}
+.rung{display:grid;grid-template-columns:auto 1fr;gap:16px;align-items:baseline;padding-block:16px;border-bottom:1px solid var(--rule)}
+.rung i{font-style:normal;width:22px;height:22px;border:1px solid var(--accent);color:var(--accent-ink);display:grid;place-items:center;font-size:11px;font-family:"Inter",sans-serif;border-radius:50%;transform:translateY(3px)}
+.rung p{margin:2px 0 0;color:var(--muted);font-size:15.5px}
+
+/* ---------- evidence ---------- */
+.case{padding-block:24px;border-bottom:1px solid var(--rule)}
+.case:last-of-type{border-bottom:0}
+.badge{display:inline-block;font-size:12px;font-family:"Inter",sans-serif;color:var(--accent-ink);border:1px solid var(--gold-soft);padding:3px 9px;margin-bottom:10px}
+.case p{color:var(--muted);font-size:15.5px}
+.case .source{color:var(--muted);font-size:13px;margin:10px 0 0;font-family:"Inter",sans-serif;opacity:.8}
+
+/* ---------- contact ---------- */
+.contact{display:grid;gap:14px;margin-top:26px;max-width:520px}
+.chan{display:flex;justify-content:space-between;gap:14px;padding-block:13px;border-bottom:1px solid var(--rule);text-decoration:none;font-size:15.5px}
+.chan span:last-child{color:var(--muted);direction:ltr;font-family:"Inter",sans-serif;font-size:14px}
+.chan:hover span:last-child{color:var(--accent-ink)}
+
+footer{border-top:1px solid var(--rule);padding-block:30px;color:var(--muted);font-size:13.5px}
+.footrow{display:flex;flex-wrap:wrap;gap:10px 20px;align-items:center;justify-content:space-between}
+
+/* ---------- faq ---------- */
+.faq{margin-top:28px;border-top:1px solid var(--rule)}
+.faq details{border-bottom:1px solid var(--rule)}
+.faq summary{list-style:none;cursor:pointer;padding-block:18px;display:flex;justify-content:space-between;align-items:baseline;gap:14px;font-size:15.5px;font-weight:600}
+.faq summary::-webkit-details-marker{display:none}
+.faq summary::after{content:"+";color:var(--accent-ink);font-family:"Inter",sans-serif;font-size:18px;flex:0 0 auto}
+.faq details[open] summary::after{content:"–"}
+.faq p{color:var(--muted);font-size:15.5px;margin:0 0 18px;max-width:60ch}
+
+/* ---------- floating whatsapp ---------- */
+.fab{position:fixed;inset-block-end:calc(20px + env(safe-area-inset-bottom,0px));inset-inline-end:20px;z-index:60;display:flex;align-items:center;gap:10px;background:var(--navy);color:#F9F8F6;text-decoration:none;padding:13px 18px;border-radius:999px;box-shadow:0 6px 18px rgba(18,32,46,.24);font-size:14px;font-weight:600}
+@media (prefers-color-scheme: dark){:root:not([data-theme="light"]) .fab{background:var(--accent);color:#12202E}}
+:root[data-theme="dark"] .fab{background:var(--accent);color:#12202E}
+.fab:hover{opacity:.92}
+.fab svg{width:20px;height:20px;flex:0 0 auto}
+@media(max-width:480px){.fab span{display:none}.fab{padding:13px}}
+</style>
+</head>
+<body>
+
+<a class="fab" href="https://wa.me/249999920087?text=%D8%A7%D9%84%D8%B3%D9%84%D8%A7%D9%85%20%D8%B9%D9%84%D9%8A%D9%83%D9%85%D8%8C%20%D8%A3%D8%B1%D8%BA%D8%A8%20%D9%81%D9%8A%20%D9%85%D9%83%D8%A7%D9%84%D9%85%D8%A9%20%D8%A7%D8%B3%D8%AA%D9%83%D8%B4%D8%A7%D9%81%20%D8%A8%D8%B4%D8%A3%D9%86%20%D8%A7%D9%84%D8%AA%D8%B4%D8%AE%D9%8A%D8%B5" target="_blank" rel="noopener" aria-label="WhatsApp">
+  <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12.04 2C6.58 2 2.13 6.45 2.13 11.91c0 1.75.46 3.45 1.32 4.95L2 22l5.29-1.39a9.87 9.87 0 0 0 4.75 1.21h.01c5.46 0 9.9-4.45 9.9-9.91 0-2.65-1.03-5.14-2.9-7.01A9.82 9.82 0 0 0 12.04 2zm0 1.67c2.22 0 4.29.87 5.86 2.44a8.2 8.2 0 0 1 2.42 5.8c0 4.55-3.71 8.25-8.29 8.25a8.27 8.27 0 0 1-4.21-1.15l-.3-.18-3.14.82.84-3.06-.2-.32a8.18 8.18 0 0 1-1.27-4.37c0-4.55 3.72-8.23 8.29-8.23zm-4.6 4.7c-.16 0-.42.06-.64.31-.22.25-.85.83-.85 2.02s.87 2.35.99 2.51c.12.16 1.7 2.68 4.17 3.66 2.06.82 2.48.66 2.93.62.45-.04 1.45-.6 1.65-1.17.2-.58.2-1.08.14-1.18-.06-.1-.22-.16-.46-.28-.24-.12-1.45-.72-1.68-.8-.22-.08-.39-.12-.55.12-.16.24-.63.8-.78.96-.14.16-.28.18-.52.06-.24-.12-1.01-.37-1.93-1.19-.71-.63-1.19-1.42-1.33-1.66-.14-.24-.01-.37.11-.49.11-.11.24-.28.36-.42.12-.14.16-.24.24-.4.08-.16.04-.3-.02-.42-.06-.12-.55-1.34-.76-1.83-.2-.48-.4-.42-.55-.42h-.47z"/></svg>
+  <span data-ar="واتساب" data-en="WhatsApp">واتساب</span>
+</a>
+
+<header>
+  <div class="wrap bar">
+    <a class="logo" href="#top" aria-label="ELMUBARAK">
+      <img class="glyph glyph-light" src="data:image/png;base64,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" alt="" aria-hidden="true">
+      <img class="glyph glyph-dark" src="data:image/png;base64,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" alt="" aria-hidden="true">
+      <b>ELMUBARAK</b>
+    </a>
+    <nav class="nav">
+      <a href="#method" data-ar="المنهجية" data-en="Method">المنهجية</a>
+      <a href="#scorecard" data-ar="بطاقة الوضوح" data-en="Scorecard">بطاقة الوضوح</a>
+      <a href="#diagnostic" data-ar="التشخيص" data-en="Diagnostic">التشخيص</a>
+      <a href="#services" data-ar="الخدمات" data-en="Services">الخدمات</a>
+      <a href="#evidence" data-ar="الأدلة" data-en="Evidence">الأدلة</a>
+      <a href="#articles" data-ar="مقالات" data-en="Articles">مقالات</a>
+      <a href="#faq" data-ar="أسئلة" data-en="FAQ">أسئلة</a>
+      <a href="#contact" data-ar="تواصل" data-en="Contact">تواصل</a>
+    </nav>
+    <div class="tools">
+      <button class="lang" id="langBtn" type="button">English</button>
+    </div>
+  </div>
+</header>
+
+<main id="top">
+
+<!-- HERO -->
+<section class="hero">
+  <div class="wrap">
+    <p class="mark reveal" data-ar="استشارات تسويق وتطوير أعمال" data-en="Strategic marketing &amp; business development">استشارات تسويق وتطوير أعمال</p>
+    <h1 class="display reveal" data-ar="نُحوّل التعقيد إلى قرار" data-en="Turning complexity into clarity">نُحوّل التعقيد إلى قرار</h1>
+    <div class="rule reveal"></div>
+    <p class="lede reveal" data-ar="نساعد المؤسسات على فهم ما يُعطّل النمو فعلًا، واتخاذ القرار الصحيح، وبناء نظام قابل للقياس. نبدأ بالتشخيص — لا بالحملة." data-en="We help organizations understand what is actually holding growth back, decide what to do next, and build a system they can measure. We start with diagnosis — not with a campaign.">نساعد المؤسسات على فهم ما يُعطّل النمو فعلًا، واتخاذ القرار الصحيح، وبناء نظام قابل للقياس. نبدأ بالتشخيص — لا بالحملة.</p>
+    <div class="btns reveal">
+      <a class="btn btn-primary" href="#contact" data-ar="احجز التشخيص" data-en="Book the Diagnostic">احجز التشخيص</a>
+      <a class="btn btn-ghost" href="#scorecard" data-ar="قيّم مؤسستك في دقيقة" data-en="Score your business in a minute">قيّم مؤسستك في دقيقة</a>
+    </div>
+  </div>
+</section>
+
+<!-- WHY -->
+<section id="why">
+  <div class="wrap">
+    <h2 data-ar="المشكلة ليست نقص الأفكار" data-en="The problem is rarely a shortage of ideas">المشكلة ليست نقص الأفكار</h2>
+    <p class="lede" data-ar="أغلب المؤسسات تملك أفكارًا ومحتوى وإعلانات. ما ينقصها هو تشخيص يحدد أين يقف النمو ولماذا. بدون ذلك، يتحول التسويق إلى نشاط دائم بلا أثر." data-en="Most organizations already have ideas, content and ads. What they lack is a diagnosis that locates where growth stalls and why. Without it, marketing becomes permanent activity with no effect.">أغلب المؤسسات تملك أفكارًا ومحتوى وإعلانات. ما ينقصها هو تشخيص يحدد أين يقف النمو ولماذا. بدون ذلك، يتحول التسويق إلى نشاط دائم بلا أثر.</p>
+    <ul class="claims">
+      <li data-ar="الإعلان لا يُصلح عرضًا غير واضح." data-en="Advertising does not fix an unclear offer.">الإعلان لا يُصلح عرضًا غير واضح.</li>
+      <li data-ar="المحتوى لا يُعوّض تموضعًا غائبًا." data-en="Content does not compensate for missing positioning.">المحتوى لا يُعوّض تموضعًا غائبًا.</li>
+      <li data-ar="الخصم لا يحل مشكلة ثقة." data-en="Discounting does not solve a trust problem.">الخصم لا يحل مشكلة ثقة.</li>
+      <li data-ar="التوسع قبل النظام يضاعف الفوضى، لا الإيراد." data-en="Scaling before a system multiplies chaos, not revenue.">التوسع قبل النظام يضاعف الفوضى، لا الإيراد.</li>
+    </ul>
+    <p class="note" data-ar="قاعدتنا: لا تكتيك قبل التشخيص. ولا رقم بلا مصدر." data-en="Our rule: no tactic before diagnosis, and no number without a source.">قاعدتنا: لا تكتيك قبل التشخيص. ولا رقم بلا مصدر.</p>
+  </div>
+</section>
+
+<!-- METHOD -->
+<section id="method">
+  <div class="wrap">
+    <p class="mark" data-ar="إطار العمل" data-en="The framework">إطار العمل</p>
+    <h2 data-ar="خمس مراحل، بوابة قرار بين كل مرحلة" data-en="Five stages, with a decision gate between each">خمس مراحل، بوابة قرار بين كل مرحلة</h2>
+    <p class="lede" data-ar="لا ننتقل من مرحلة إلى التي تليها إلا بدليل. إذا غاب الدليل، تُعلن البوابة راسبة ونعود للبحث." data-en="We do not move to the next stage without evidence. If evidence is missing, the gate fails and we go back to research.">لا ننتقل من مرحلة إلى التي تليها إلا بدليل. إذا غاب الدليل، تُعلن البوابة راسبة ونعود للبحث.</p>
+    <div class="steps">
+      <div class="step">
+        <h3><span data-ar="Diagnose" data-en="Diagnose">Diagnose</span></h3>
+        <p data-ar="تشخيص — نقيس الوضع الحالي على العدسات الإحدى عشرة ونبني خط الأساس." data-en="We score the current state across eleven lenses and set the baseline.">تشخيص — نقيس الوضع الحالي على العدسات الإحدى عشرة ونبني خط الأساس.</p>
+      </div>
+      <div class="step">
+        <h3><span>Decide</span></h3>
+        <p data-ar="قرار — نختار نقطة اختناق أساسية واحدة ورهانًا ثانويًا واحدًا. الباقي يُؤجَّل بسبب مُعلَن." data-en="We select one primary bottleneck and one secondary bet. Everything else is deferred for a stated reason.">قرار — نختار نقطة اختناق أساسية واحدة ورهانًا ثانويًا واحدًا. الباقي يُؤجَّل بسبب مُعلَن.</p>
+      </div>
+      <div class="step">
+        <h3><span>Design</span></h3>
+        <p data-ar="تصميم — تموضع وعرض ورحلة عميل تعالج الاختناق المختار تحديدًا." data-en="Positioning, offer and customer journey built to address the selected bottleneck.">تصميم — تموضع وعرض ورحلة عميل تعالج الاختناق المختار تحديدًا.</p>
+      </div>
+      <div class="step">
+        <h3><span>Deploy</span></h3>
+        <p data-ar="تنفيذ — لكل مبادرة مالك، وتعريف للإنجاز، ومؤشر، وتاريخ مراجعة." data-en="Every initiative has an owner, a definition of done, a KPI and a review date.">تنفيذ — لكل مبادرة مالك، وتعريف للإنجاز، ومؤشر، وتاريخ مراجعة.</p>
+      </div>
+      <div class="step">
+        <h3><span>Drive</span></h3>
+        <p data-ar="قيادة — نعيد قياس العدسات نفسها بعد 90 يومًا. الفرق بين القياسين هو الدليل." data-en="We re-score the same lenses after 90 days. The gap between the two scores is the evidence.">قيادة — نعيد قياس العدسات نفسها بعد 90 يومًا. الفرق بين القياسين هو الدليل.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- SCORECARD -->
+<section id="scorecard">
+  <div class="wrap">
+    <p class="mark" data-ar="أداة القياس" data-en="The instrument">أداة القياس</p>
+    <h2 data-ar="بطاقة الوضوح — إحدى عشرة عدسة" data-en="The Clarity Scorecard — eleven lenses">بطاقة الوضوح — إحدى عشرة عدسة</h2>
+    <p class="lede" data-ar="قيّم كل عدسة من 1 (غير واضح إطلاقًا) إلى 5 (واضح وموثّق ومُقاس). المتوسط لا يعنينا — تعنينا أضعف عدسة." data-en="Score each lens from 1 (no clarity at all) to 5 (clear, documented and measured). The average does not matter — the weakest lens does.">قيّم كل عدسة من 1 (غير واضح إطلاقًا) إلى 5 (واضح وموثّق ومُقاس). المتوسط لا يعنينا — تعنينا أضعف عدسة.</p>
+
+    <div class="card">
+      <div id="lensList"></div>
+      <div class="result" id="result" hidden>
+        <p id="resultText"></p>
+        <p class="small" id="resultNote"></p>
+        <div class="btns" style="margin-top:14px">
+          <a class="btn btn-primary" href="#contact" data-ar="ناقش هذه النتيجة معنا" data-en="Discuss this result with us">ناقش هذه النتيجة معنا</a>
+        </div>
+      </div>
+    </div>
+    <p class="note" data-ar="هذه أداة تقدير ذاتي، لا تشخيصًا. التشخيص يتحقق من التقدير بالأدلة والمقابلات والبيانات، وقد يقلبه." data-en="This is a self-estimate, not a diagnosis. The Diagnostic tests that estimate against evidence, interviews and data — and may overturn it.">هذه أداة تقدير ذاتي، لا تشخيصًا. التشخيص يتحقق من التقدير بالأدلة والمقابلات والبيانات، وقد يقلبه.</p>
+  </div>
+</section>
+
+<!-- DIAGNOSTIC -->
+<section id="diagnostic">
+  <div class="wrap">
+    <p class="mark" data-ar="المنتج الرئيسي" data-en="The lead product">المنتج الرئيسي</p>
+    <h2 data-ar="تشخيص الأعمال والتسويق" data-en="Business &amp; Marketing Diagnostic">تشخيص الأعمال والتسويق</h2>
+    <p class="lede" data-ar="خمسة عشر يوم عمل (20–25 يومًا للحالات الأعمق أو تعدد أصحاب القرار). المخرج ليس تقريرًا للقراءة — بل قرارًا قابلًا للتنفيذ." data-en="Fifteen working days (20–25 for deeper cases or multiple stakeholders). The output is not a report to read — it is a decision you can act on.">خمسة عشر يوم عمل (20–25 يومًا للحالات الأعمق أو تعدد أصحاب القرار). المخرج ليس تقريرًا للقراءة — بل قرارًا قابلًا للتنفيذ.</p>
+
+    <div class="cols">
+      <div>
+        <h3 data-ar="ما تستلمه" data-en="What you receive">ما تستلمه</h3>
+        <ul class="list">
+          <li data-ar="تقرير تشخيص تنفيذي، 8–15 صفحة" data-en="Executive diagnosis report, 8–15 pages">تقرير تشخيص تنفيذي، 8–15 صفحة</li>
+          <li data-ar="بطاقة الوضوح بالعدسات الإحدى عشرة + درجة ثقة لكل عدسة" data-en="Clarity Scorecard across eleven lenses, with a confidence grade per lens">بطاقة الوضوح بالعدسات الإحدى عشرة + درجة ثقة لكل عدسة</li>
+          <li data-ar="خريطة العَرَض ← السبب الجذري" data-en="Symptom → root-cause map">خريطة العَرَض ← السبب الجذري</li>
+          <li data-ar="مصفوفة الأولويات (الأثر × الإلحاح × الثقة ÷ الجهد)" data-en="Priority matrix (Impact × Urgency × Confidence ÷ Effort)">مصفوفة الأولويات (الأثر × الإلحاح × الثقة ÷ الجهد)</li>
+          <li data-ar="ملاحظات التموضع وبنية العرض" data-en="Positioning and offer-architecture observations">ملاحظات التموضع وبنية العرض</li>
+          <li data-ar="خارطة طريق 30 / 60 / 90 يومًا" data-en="30 / 60 / 90-day roadmap">خارطة طريق 30 / 60 / 90 يومًا</li>
+          <li data-ar="شجرة المؤشرات وخط الأساس المطلوب" data-en="KPI tree and the baseline it requires">شجرة المؤشرات وخط الأساس المطلوب</li>
+          <li data-ar="جلسة تنفيذية 90 دقيقة لمناقشة القرار" data-en="90-minute executive session to work through the decision">جلسة تنفيذية 90 دقيقة لمناقشة القرار</li>
+        </ul>
+      </div>
+      <div>
+        <h3 data-ar="الأسئلة التي يجيب عنها" data-en="The questions it answers">الأسئلة التي يجيب عنها</h3>
+        <ul class="list">
+          <li data-ar="أين نقف الآن، بالأدلة لا بالانطباع؟" data-en="Where do we stand now — by evidence, not impression?">أين نقف الآن، بالأدلة لا بالانطباع؟</li>
+          <li data-ar="ما نقطة الاختناق الحقيقية؟" data-en="What is the real bottleneck?">ما نقطة الاختناق الحقيقية؟</li>
+          <li data-ar="لماذا وُجدت؟ ما سببها الجذري؟" data-en="Why does it exist — what is the root cause?">لماذا وُجدت؟ ما سببها الجذري؟</li>
+          <li data-ar="ما الأهم من بين كل ما يمكن فعله؟" data-en="Of everything we could do, what matters most?">ما الأهم من بين كل ما يمكن فعله؟</li>
+          <li data-ar="بماذا نبدأ في الثلاثين يومًا الأولى؟" data-en="What do we start with in the first 30 days?">بماذا نبدأ في الثلاثين يومًا الأولى؟</li>
+          <li data-ar="كيف سنعرف أنه نجح؟" data-en="How will we know it worked?">كيف سنعرف أنه نجح؟</li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="tiers">
+      <div class="tier">
+        <h3><span data-ar="مستوى التركيز" data-en="Focus">مستوى التركيز</span> <em>Focus</em></h3>
+        <p data-ar="مهني مستقل أو نشاط صغير. صاحب قرار واحد، نطاق واحد، تشخيص مركّز." data-en="Independent professional or small business. One decision-maker, one scope, a focused diagnosis.">مهني مستقل أو نشاط صغير. صاحب قرار واحد، نطاق واحد، تشخيص مركّز.</p>
+      </div>
+      <div class="tier">
+        <h3><span data-ar="المستوى الأساسي" data-en="Core">المستوى الأساسي</span> <em>Core</em></h3>
+        <p data-ar="منشأة متوسطة أو مؤسسة تعليمية أو صحية. عدة أصحاب قرار، مقابلات عملاء، تحليل بيانات." data-en="An SME, school or clinic. Several stakeholders, customer interviews, data analysis.">منشأة متوسطة أو مؤسسة تعليمية أو صحية. عدة أصحاب قرار، مقابلات عملاء، تحليل بيانات.</p>
+      </div>
+      <div class="tier">
+        <h3><span data-ar="المستوى المؤسسي" data-en="Institutional">المستوى المؤسسي</span> <em>Institutional</em></h3>
+        <p data-ar="مؤسسة متعددة الفروع أو الخطوط. بحث أعمق، قرارات عالية الحساسية، عرض على مجلس الإدارة." data-en="Multi-branch or multi-line organizations. Deeper research, high-sensitivity decisions, board-level presentation.">مؤسسة متعددة الفروع أو الخطوط. بحث أعمق، قرارات عالية الحساسية، عرض على مجلس الإدارة.</p>
+      </div>
+    </div>
+    <p class="note" data-ar="التسعير على التعقيد وعدد أصحاب القرار وعمق البحث وحساسية القرار — لا على عدد الساعات. يُحدَّد بعد مكالمة الاستكشاف." data-en="Pricing follows complexity, stakeholder count, research depth and decision sensitivity — not hours. Set after the discovery call.">التسعير على التعقيد وعدد أصحاب القرار وعمق البحث وحساسية القرار — لا على عدد الساعات. يُحدَّد بعد مكالمة الاستكشاف.</p>
+  </div>
+</section>
+
+<!-- SERVICES -->
+<section id="services">
+  <div class="wrap">
+    <p class="mark" data-ar="بعد التشخيص" data-en="After the diagnosis">بعد التشخيص</p>
+    <h2 data-ar="سلّم العمل" data-en="The engagement ladder">سلّم العمل</h2>
+    <p class="lede" data-ar="كل درجة اختيارية، ولا تُباع إلا إذا أثبت التشخيص الحاجة إليها." data-en="Every rung is optional, and is only sold when the diagnosis proves it is needed.">كل درجة اختيارية، ولا تُباع إلا إذا أثبت التشخيص الحاجة إليها.</p>
+    <div class="ladder">
+      <div class="rung"><i>1</i><div><h3 data-ar="التشخيص" data-en="Diagnostic">التشخيص</h3><p data-ar="نقطة الدخول الوحيدة. يحدد الاختناق والقرار." data-en="The only entry point. It identifies the bottleneck and the decision.">نقطة الدخول الوحيدة. يحدد الاختناق والقرار.</p></div></div>
+      <div class="rung"><i>2</i><div><h3 data-ar="سبرنت استراتيجي" data-en="Strategy Sprint">سبرنت استراتيجي</h3><p data-ar="بناء التموضع أو العرض أو بنية السوق خلال مدة قصيرة محددة." data-en="Building positioning, offer or market architecture within a short, fixed window.">بناء التموضع أو العرض أو بنية السوق خلال مدة قصيرة محددة.</p></div></div>
+      <div class="rung"><i>3</i><div><h3 data-ar="برنامج تنفيذ 90 يومًا" data-en="90-Day Implementation">برنامج تنفيذ 90 يومًا</h3><p data-ar="تنفيذ مُدار بمالك ومؤشر لكل مبادرة، مع مراجعة دورية." data-en="Managed execution with an owner and a KPI per initiative, reviewed on a fixed cadence.">تنفيذ مُدار بمالك ومؤشر لكل مبادرة، مع مراجعة دورية.</p></div></div>
+      <div class="rung"><i>4</i><div><h3 data-ar="استشارة مستمرة" data-en="Ongoing Advisory">استشارة مستمرة</h3><p data-ar="مرافقة شهرية لصاحب القرار: مراجعة، تحكيم أولويات، منع الانحراف." data-en="Monthly support for the decision-maker: review, prioritization, drift control.">مرافقة شهرية لصاحب القرار: مراجعة، تحكيم أولويات، منع الانحراف.</p></div></div>
+      <div class="rung"><i>5</i><div><h3 data-ar="بناء القدرات وأنظمة الذكاء الاصطناعي" data-en="Capability &amp; AI Systems">بناء القدرات وأنظمة الذكاء الاصطناعي</h3><p data-ar="تدريب الفريق، وأتمتة الاستقبال والتقارير والمتابعة داخل المؤسسة." data-en="Team training, plus automation of intake, reporting and follow-up inside the organization.">تدريب الفريق، وأتمتة الاستقبال والتقارير والمتابعة داخل المؤسسة.</p></div></div>
+    </div>
+    <p class="note" data-ar="التنفيذ الإبداعي والمحتوى والحملات مكوّنات داخل الخطة أو إضافات — لا تعريفًا للوكالة." data-en="Creative execution, content and campaigns are components inside a plan or add-ons — never the definition of the firm.">التنفيذ الإبداعي والمحتوى والحملات مكوّنات داخل الخطة أو إضافات — لا تعريفًا للوكالة.</p>
+  </div>
+</section>
+
+<!-- EVIDENCE -->
+<section id="evidence">
+  <div class="wrap">
+    <p class="mark" data-ar="الأدلة" data-en="Evidence">الأدلة</p>
+    <h2 data-ar="ما نقوله عن نتائجنا، وما لا نقوله" data-en="What we claim about our results — and what we don't">ما نقوله عن نتائجنا، وما لا نقوله</h2>
+    <p class="lede" data-ar="نفصل في كل مادة بين الحقيقة والتفسير والتوصية. ولا ننسب نموًا إلى عملنا حين تتداخل عوامل خارجية." data-en="In every document we separate fact from interpretation from recommendation. We do not attribute growth to our work where external factors are in play.">نفصل في كل مادة بين الحقيقة والتفسير والتوصية. ولا ننسب نموًا إلى عملنا حين تتداخل عوامل خارجية.</p>
+
+    <div class="case">
+      <span class="badge" data-ar="مساهمة استراتيجية — الأرقام بانتظار توثيق العميل" data-en="Strategic contribution — figures pending client verification">مساهمة استراتيجية — الأرقام بانتظار توثيق العميل</span>
+      <h3 data-ar="مؤسسة تعليمية — كسلا" data-en="An educational institution — Kassala">مؤسسة تعليمية — كسلا</h3>
+      <p data-ar="إعادة تموضع المؤسسة أمام أولياء الأمور، وبناء نظام محتوى منخفض التكلفة، وهيكلة رحلة التسجيل من أول اهتمام حتى القيد. نمت أعداد الطلاب خلال الفترة؛ الأرقام مملوكة للعميل ولا تُنشر قبل إذنه، ولا تُنسب بالكامل إلى العمل التسويقي." data-en="Repositioning the institution in the eyes of parents, building a low-cost content system, and restructuring the enrolment journey from first interest to registration. Student numbers grew over the period; the figures belong to the client, are not published without consent, and are not attributed wholly to the marketing work.">إعادة تموضع المؤسسة أمام أولياء الأمور، وبناء نظام محتوى منخفض التكلفة، وهيكلة رحلة التسجيل من أول اهتمام حتى القيد. نمت أعداد الطلاب خلال الفترة؛ الأرقام مملوكة للعميل ولا تُنشر قبل إذنه، ولا تُنسب بالكامل إلى العمل التسويقي.</p>
+    </div>
+
+    <div class="case">
+      <span class="badge" data-ar="تشخيص أولي" data-en="Preliminary diagnosis">تشخيص أولي</span>
+      <h3 data-ar="مهني بهوية مزدوجة — كسلا" data-en="A professional with a dual identity — Kassala">مهني بهوية مزدوجة — كسلا</h3>
+      <p data-ar="الاختناق لم يكن في المحتوى بل في التموضع: نشاطان مهنيان يتنافسان على هوية واحدة. الخطة: عشر مقابلات شراء، واختبار عرضين بسعرين، ومشروعان تجريبيان، ثم إعادة التسعير بناءً على ما ثبت." data-en="The bottleneck was not content but positioning: two professional tracks competing for one identity. The plan: ten buyer interviews, two offers tested at two prices, two pilot projects, then repricing based on what held up.">الاختناق لم يكن في المحتوى بل في التموضع: نشاطان مهنيان يتنافسان على هوية واحدة. الخطة: عشر مقابلات شراء، واختبار عرضين بسعرين، ومشروعان تجريبيان، ثم إعادة التسعير بناءً على ما ثبت.</p>
+    </div>
+  </div>
+</section>
+
+<!-- ARTICLES -->
+<section id="articles">
+  <div class="wrap">
+    <p class="mark" data-ar="مقالات" data-en="Articles">مقالات</p>
+    <h2 data-ar="ملاحظات مبنية على أدلة، لا على انطباع" data-en="Notes built on evidence, not impression">ملاحظات مبنية على أدلة، لا على انطباع</h2>
+    <p class="lede" data-ar="نفس قاعدتنا في التشخيص: لا رقم بلا مصدر. هذه القائمة تُحدَّث دوريًا كلما ظهر بحث أو تحوّل بالسوق يستحق التوقف عنده. آخر تحديث: سبتمبر 2026." data-en="Same rule as our diagnostics: no number without a source. This list is refreshed periodically whenever research or a market shift is worth stopping for. Last updated: September 2026.">نفس قاعدتنا في التشخيص: لا رقم بلا مصدر. هذه القائمة تُحدَّث دوريًا كلما ظهر بحث أو تحوّل بالسوق يستحق التوقف عنده. آخر تحديث: سبتمبر 2026.</p>
+
+    <div class="case">
+      <span class="badge" data-ar="السوق السوداني" data-en="Sudanese market">السوق السوداني</span>
+      <h3 data-ar="السودان الرقمي بالأرقام: سوق دون تشبّع" data-en="Digital Sudan by the numbers: an unsaturated market">السودان الرقمي بالأرقام: سوق دون تشبّع</h3>
+      <p data-ar="14.9 مليون مستخدم إنترنت في السودان بنهاية 2025 (نسبة انتشار 28.7%)، و6.06 مليون هوية على منصات التواصل (11.6% من السكان). أغلب السوق السوداني لم يُختبر رقميًا بعد — الفرصة ليست في التنافس على من هو حاضر، بل في الوصول لمن لم يُستهدف أصلًا." data-en="14.9 million internet users in Sudan by end of 2025 (28.7% penetration), and 6.06 million social media identities (11.6% of the population). Most of the Sudanese market hasn't been tested digitally yet — the opportunity isn't outcompeting who's already there, it's reaching who hasn't been targeted at all.">14.9 مليون مستخدم إنترنت في السودان بنهاية 2025 (نسبة انتشار 28.7%)، و6.06 مليون هوية على منصات التواصل (11.6% من السكان). أغلب السوق السوداني لم يُختبر رقميًا بعد — الفرصة ليست في التنافس على من هو حاضر، بل في الوصول لمن لم يُستهدف أصلًا.</p>
+      <p class="source" data-ar="المصدر: DataReportal — تقرير السودان الرقمي 2026" data-en="Source: DataReportal — Digital 2026: Sudan">المصدر: DataReportal — تقرير السودان الرقمي 2026</p>
+    </div>
+
+    <div class="case">
+      <span class="badge" data-ar="السوق السوداني" data-en="Sudanese market">السوق السوداني</span>
+      <h3 data-ar="لماذا تفشل نماذج التسويق العالمية عند نسخها في السودان" data-en="Why global marketing playbooks fail when copied into Sudan">لماذا تفشل نماذج التسويق العالمية عند نسخها في السودان</h3>
+      <p data-ar="معظم أطر التسويق الجاهزة تفترض سوقًا ناضجًا: بيانات موثوقة، سلوك شراء مفهوم، وقنوات دفع مستقرة. في السودان، الثقة تُبنى بالعلاقة قبل الإعلان، والدفع والتوصيل يفرضان قيودًا لا يراعيها القالب الجاهز. النموذج الناجح هنا لا يُستورد — يُشتق من التشخيص المحلي." data-en="Most off-the-shelf frameworks assume a mature market: reliable data, predictable buying behavior, stable payment rails. In Sudan, trust is built through relationship before advertising, and payment and delivery constraints the template never accounts for. The model that works here isn't imported — it's derived from local diagnosis.">معظم أطر التسويق الجاهزة تفترض سوقًا ناضجًا: بيانات موثوقة، سلوك شراء مفهوم، وقنوات دفع مستقرة. في السودان، الثقة تُبنى بالعلاقة قبل الإعلان، والدفع والتوصيل يفرضان قيودًا لا يراعيها القالب الجاهز. النموذج الناجح هنا لا يُستورد — يُشتق من التشخيص المحلي.</p>
+      <p class="source" data-ar="تحليل ELMUBARAK" data-en="ELMUBARAK analysis">تحليل ELMUBARAK</p>
+    </div>
+
+    <div class="case">
+      <span class="badge" data-ar="عام" data-en="General">عام</span>
+      <h3 data-ar="الذكاء الاصطناعي منتشر، لكن الفعالية نادرة" data-en="AI is everywhere. Effectiveness is not.">الذكاء الاصطناعي منتشر، لكن الفعالية نادرة</h3>
+      <p data-ar="96% من مسوّقي B2B يستخدمون أدوات الذكاء الاصطناعي في 2026، لكن 12% فقط يصفون أداءهم بأنه عالي الفعالية. الفارق بين الفريقين ليس الأداة — بل جودة المحتوى ومهارة الفريق، حسب 65% من الفرق الفعّالة." data-en="96% of B2B marketers use AI tools in 2026, yet only 12% call their results highly effective. The gap isn't the tool — 65% of high-performing teams credit content quality and team skill instead.">96% من مسوّقي B2B يستخدمون أدوات الذكاء الاصطناعي في 2026، لكن 12% فقط يصفون أداءهم بأنه عالي الفعالية. الفارق بين الفريقين ليس الأداة — بل جودة المحتوى ومهارة الفريق، حسب 65% من الفرق الفعّالة.</p>
+      <p class="source" data-ar="المصدر: Demand Gen Report — تقرير اتجاهات B2B 2026" data-en="Source: Demand Gen Report — 2026 B2B Trends Research">المصدر: Demand Gen Report — تقرير اتجاهات B2B 2026</p>
+    </div>
+
+    <div class="case">
+      <span class="badge" data-ar="عام" data-en="General">عام</span>
+      <h3 data-ar="المحتوى يبني الوعي، لكن معظمه غير متّسق" data-en="Content builds awareness. Most of it isn't consistent.">المحتوى يبني الوعي، لكن معظمه غير متّسق</h3>
+      <p data-ar="81% من المسوّقين يقولون إن المحتوى رفع وعي علامتهم التجارية، لكن 45% من الفرق نفسها تفشل في تقديم تجربة متّسقة عبر القنوات، و51% يصفون حملاتهم بأنها عامة بلا تمييز. الوعي وحده لا يكفي — الاتساق هو ما يحوّله لثقة." data-en="81% of marketers say content built brand awareness — but 45% of the same teams fail to deliver a consistent experience across channels, and 51% call their campaigns generic. Awareness alone doesn't convert; consistency does.">81% من المسوّقين يقولون إن المحتوى رفع وعي علامتهم التجارية، لكن 45% من الفرق نفسها تفشل في تقديم تجربة متّسقة عبر القنوات، و51% يصفون حملاتهم بأنها عامة بلا تمييز. الوعي وحده لا يكفي — الاتساق هو ما يحوّله لثقة.</p>
+      <p class="source" data-ar="المصدر: DesignRush وDemandSage — إحصاءات تسويق المحتوى 2026" data-en="Source: DesignRush &amp; DemandSage — 2026 Content Marketing Statistics">المصدر: DesignRush وDemandSage — إحصاءات تسويق المحتوى 2026</p>
+    </div>
+  </div>
+</section>
+
+<!-- ABOUT -->
+<section id="about">
+  <div class="wrap">
+    <p class="mark" data-ar="من نحن" data-en="About">من نحن</p>
+    <h2 data-ar="منهج ومؤسس" data-en="A method, and a founder">منهج ومؤسس</h2>
+    <div class="cols">
+      <div>
+        <p data-ar="ELMUBARAK وكالة استشارية تعمل من السودان على تسويق مرتبط بالإيراد وقرارات قابلة للتنفيذ. نقف في المساحة بين وكالات التنفيذ الرقمي وبيوت الاستشارة الكبرى: عمق تحليلي حقيقي، وسياق محلي، وحجم مشروع يناسب المنشأة المتوسطة." data-en="ELMUBARAK is a consultancy working from Sudan on revenue-linked marketing and decisions that can actually be executed. We sit between digital execution agencies and large consulting houses: real analytical depth, local context, and a project size an SME can carry.">ELMUBARAK وكالة استشارية تعمل من السودان على تسويق مرتبط بالإيراد وقرارات قابلة للتنفيذ. نقف في المساحة بين وكالات التنفيذ الرقمي وبيوت الاستشارة الكبرى: عمق تحليلي حقيقي، وسياق محلي، وحجم مشروع يناسب المنشأة المتوسطة.</p>
+        <p data-ar="الوكالة هي المنهج والأدوات والفريق. المؤسس هو الصوت والخبرة والعلاقة. لا نبني قيمة تعتمد على شخص واحد." data-en="The firm is the method, the tools and the team. The founder is the voice, the expertise and the relationship. We do not build value that depends on one person.">الوكالة هي المنهج والأدوات والفريق. المؤسس هو الصوت والخبرة والعلاقة. لا نبني قيمة تعتمد على شخص واحد.</p>
+      </div>
+      <div>
+        <h3 data-ar="عبدالعظيم المبارك" data-en="Abdulazim Elmubarak">عبدالعظيم المبارك</h3>
+        <ul class="list">
+          <li data-ar="دكتوراة إدارة الأعمال المهنية (DPA) — قيد الدراسة" data-en="Doctor of Professional Business Administration (DPA) — in progress">دكتوراة إدارة الأعمال المهنية (DPA) — قيد الدراسة</li>
+          <li data-ar="ماجستير إدارة أعمال — ريادة الأعمال" data-en="MBA — Entrepreneurship">ماجستير إدارة أعمال — ريادة الأعمال</li>
+          <li data-ar="ماجستير علوم — الأحياء الدقيقة، وخلفية مهنية في المختبرات الطبية" data-en="MSc — Microbiology, with a professional background in medical laboratories">ماجستير علوم — الأحياء الدقيقة، وخلفية مهنية في المختبرات الطبية</li>
+          <li data-ar="شهادة BMS — المستوى المهني في استراتيجيات التسويق وتطوير الأعمال" data-en="BMS Professional Level — Marketing &amp; Business Development Strategies">شهادة BMS — المستوى المهني في استراتيجيات التسويق وتطوير الأعمال</li>
+          <li data-ar="عمل تطويري وتسويقي في التعليم والرعاية الصحية والأغذية والمنظمات غير الربحية" data-en="Development and marketing work across education, healthcare, F&amp;B and nonprofits">عمل تطويري وتسويقي في التعليم والرعاية الصحية والأغذية والمنظمات غير الربحية</li>
+          <li data-ar="مؤسس مركز رفقة للقراءة والتدريب" data-en="Founder of the Rafaqa Reading &amp; Training Center">مؤسس مركز رفقة للقراءة والتدريب</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- FAQ -->
+<section id="faq">
+  <div class="wrap">
+    <p class="mark" data-ar="أسئلة متكررة" data-en="Frequently asked">أسئلة متكررة</p>
+    <h2 data-ar="أسئلة قبل أن تحجز" data-en="Questions before you book">أسئلة قبل أن تحجز</h2>
+    <div class="faq">
+      <details>
+        <summary data-ar="كم تكلفة التشخيص؟" data-en="How much does the Diagnostic cost?">كم تكلفة التشخيص؟</summary>
+        <p data-ar="التسعير يتبع التعقيد وعدد أصحاب القرار وعمق البحث وحساسية القرار — لا عدد الساعات. نحدده بعد مكالمة الاستكشاف العشرين دقيقة، ولا نرسل عرض سعر قبلها." data-en="Pricing follows complexity, stakeholder count, research depth and decision sensitivity — not hours. It is set after the twenty-minute discovery call; we do not quote before it.">التسعير يتبع التعقيد وعدد أصحاب القرار وعمق البحث وحساسية القرار — لا عدد الساعات. نحدده بعد مكالمة الاستكشاف العشرين دقيقة، ولا نرسل عرض سعر قبلها.</p>
+      </details>
+      <details>
+        <summary data-ar="هل نشاطي صغير جدًا لهذا؟" data-en="Is my business too small for this?">هل نشاطي صغير جدًا لهذا؟</summary>
+        <p data-ar="لا. مستوى Focus مصمم للمهني المستقل أو النشاط الصغير بصاحب قرار واحد. الفارق ليس في القبول، بل في نطاق التشخيص وعمقه." data-en="No. The Focus tier is built for an independent professional or a small business with one decision-maker. What changes is the scope and depth of the diagnosis, not whether we take you on.">لا. مستوى Focus مصمم للمهني المستقل أو النشاط الصغير بصاحب قرار واحد. الفارق ليس في القبول، بل في نطاق التشخيص وعمقه.</p>
+      </details>
+      <details>
+        <summary data-ar="ماذا لو تبيّن أن التشخيص غير مناسب لحالتي؟" data-en="What if the Diagnostic turns out not to be a fit?">ماذا لو تبيّن أن التشخيص غير مناسب لحالتي؟</summary>
+        <p data-ar="نقولها في مكالمة الاستكشاف مباشرة، دون التفاف. لا نقبل مشروعًا يتعذّر تعريف نجاحه أو تحديد مالكه — بيع خدمة لا تناسبك يكلفك أكثر مما يفيدك." data-en="We say so directly in the discovery call. We decline any project whose success or owner cannot be defined — selling you something that does not fit costs you more than it helps.">نقولها في مكالمة الاستكشاف مباشرة، دون التفاف. لا نقبل مشروعًا يتعذّر تعريف نجاحه أو تحديد مالكه — بيع خدمة لا تناسبك يكلفك أكثر مما يفيدك.</p>
+      </details>
+      <details>
+        <summary data-ar="هل تعملون مع مؤسسات خارج السودان؟" data-en="Do you work with organizations outside Sudan?">هل تعملون مع مؤسسات خارج السودان؟</summary>
+        <p data-ar="نعمل من السودان، ونُنفّذ التشخيص عن بُعد لأي مؤسسة تتوفر لديها إمكانية إجراء المقابلات ومشاركة البيانات اللازمة، داخل السودان أو خارجه." data-en="We work from Sudan and run the Diagnostic remotely for any organization that can provide interview access and the data we need, inside Sudan or outside it.">نعمل من السودان، ونُنفّذ التشخيص عن بُعد لأي مؤسسة تتوفر لديها إمكانية إجراء المقابلات ومشاركة البيانات اللازمة، داخل السودان أو خارجه.</p>
+      </details>
+      <details>
+        <summary data-ar="هل بياناتنا ومعلوماتنا تبقى سرية؟" data-en="Does our information stay confidential?">هل بياناتنا ومعلوماتنا تبقى سرية؟</summary>
+        <p data-ar="نعم. اتفاق سرية قياسي قبل بدء أي عمل، ولا نُنشر رقمًا أو نتيجة تخص عميلًا دون إذنه الصريح — كما ترى في قسم الأدلة أعلاه." data-en="Yes. A standard confidentiality agreement precedes any work, and we do not publish a client's figures or results without explicit consent — as shown in the Evidence section above.">نعم. اتفاق سرية قياسي قبل بدء أي عمل، ولا نُنشر رقمًا أو نتيجة تخص عميلًا دون إذنه الصريح — كما ترى في قسم الأدلة أعلاه.</p>
+      </details>
+      <details>
+        <summary data-ar="ماذا يحدث بعد التشخيص؟" data-en="What happens after the Diagnostic?">ماذا يحدث بعد التشخيص؟</summary>
+        <p data-ar="أنت تقرر. التشخيص هو نقطة الدخول الوحيدة ولا يُلزمك بشيء بعده. إذا أثبت الحاجة لخطوة تالية من سلّم العمل، نعرضها؛ وإن لم يثبت، تنتهي العلاقة عند التقرير والجلسة التنفيذية." data-en="You decide. The Diagnostic is the only entry point and commits you to nothing beyond it. If it proves the case for a next step on the engagement ladder, we propose it; if not, the relationship ends at the report and the executive session.">أنت تقرر. التشخيص هو نقطة الدخول الوحيدة ولا يُلزمك بشيء بعده. إذا أثبت الحاجة لخطوة تالية من سلّم العمل، نعرضها؛ وإن لم يثبت، تنتهي العلاقة عند التقرير والجلسة التنفيذية.</p>
+      </details>
+    </div>
+  </div>
+</section>
+
+<!-- CONTACT -->
+<section id="contact">
+  <div class="wrap">
+    <h2 data-ar="الخطوة التالية: مكالمة عشرين دقيقة" data-en="Next step: a twenty-minute call">الخطوة التالية: مكالمة عشرين دقيقة</h2>
+    <p class="lede" data-ar="مكالمة قصيرة نحدد فيها ما إذا كان التشخيص مناسبًا لحالتك أصلًا. إن لم يكن، سنقول ذلك — ولا نقبل مشروعًا يتعذّر تعريف نجاحه أو تحديد مالكه." data-en="A short call to determine whether the Diagnostic is even the right fit. If it isn't, we will say so — and we decline any project whose success or owner cannot be defined.">مكالمة قصيرة نحدد فيها ما إذا كان التشخيص مناسبًا لحالتك أصلًا. إن لم يكن، سنقول ذلك — ولا نقبل مشروعًا يتعذّر تعريف نجاحه أو تحديد مالكه.</p>
+    <div class="contact">
+      <a class="chan" href="https://wa.me/249999920087" id="ch-wa"><span data-ar="واتساب" data-en="WhatsApp">واتساب</span><span>+249 99 992 0087</span></a>
+      <a class="chan" href="mailto:azamaalmubarak@gmail.com" id="ch-mail"><span data-ar="البريد الإلكتروني" data-en="Email">البريد الإلكتروني</span><span>azamaalmubarak@gmail.com</span></a>
+    </div>
+    <div class="btns">
+      <a class="btn btn-primary" href="https://wa.me/249999920087?text=%D8%A7%D9%84%D8%B3%D9%84%D8%A7%D9%85%20%D8%B9%D9%84%D9%8A%D9%83%D9%85%D8%8C%20%D8%A3%D8%B1%D8%BA%D8%A8%20%D9%81%D9%8A%20%D9%85%D9%83%D8%A7%D9%84%D9%85%D8%A9%20%D8%A7%D8%B3%D8%AA%D9%83%D8%B4%D8%A7%D9%81%20%D8%A8%D8%B4%D8%A3%D9%86%20%D8%A7%D9%84%D8%AA%D8%B4%D8%AE%D9%8A%D8%B5" data-ar="ابدأ المحادثة" data-en="Start the conversation">ابدأ المحادثة</a>
+    </div>
+  </div>
+</section>
+
+</main>
+
+<footer>
+  <div class="wrap footrow">
+    <span data-ar="ELMUBARAK — استشارات تسويق وتطوير أعمال" data-en="ELMUBARAK — Strategic Marketing &amp; Business Development">ELMUBARAK — استشارات تسويق وتطوير أعمال</span>
+    <span data-ar="نُحوّل التعقيد إلى قرار" data-en="Turning complexity into clarity">نُحوّل التعقيد إلى قرار</span>
+  </div>
+</footer>
+
+<script>
+(function(){
+  "use strict";
+
+  var LENSES = [
+    {ar:"الأعمال",       en:"Business",    qAr:"نموذج العمل ومصادر الربح واضحة ومكتوبة",              qEn:"The business model and profit sources are clear and written down"},
+    {ar:"السوق",        en:"Market",      qAr:"حجم السوق وشرائحه والمنافسون مفهومون ببيانات",        qEn:"Market size, segments and competitors are understood with data"},
+    {ar:"العميل",       en:"Customer",    qAr:"دوافع الشراء والاعتراضات معروفة من مقابلات حقيقية",    qEn:"Buying motives and objections come from real interviews"},
+    {ar:"التموضع",      en:"Positioning", qAr:"سبب اختيارنا دون غيرنا واضح ومختلف فعلًا",            qEn:"Why us and not others is clear and genuinely different"},
+    {ar:"العرض",        en:"Offer",       qAr:"العروض والأسعار مبنية على قيمة لا على تقليد المنافس",  qEn:"Offers and prices are built on value, not on copying competitors"},
+    {ar:"المبيعات",     en:"Sales",       qAr:"هناك مسار بيع مكتوب ومتابعة منتظمة للفرص",            qEn:"There is a written sales path and disciplined follow-up"},
+    {ar:"التسويق",      en:"Marketing",   qAr:"النشاط التسويقي مرتبط بهدف تجاري لا بجدول نشر",       qEn:"Marketing activity is tied to a commercial goal, not a posting schedule"},
+    {ar:"التجربة",      en:"Experience",  qAr:"تجربة العميل متسقة من أول تواصل حتى ما بعد البيع",     qEn:"The customer experience is consistent from first contact to after-sales"},
+    {ar:"المنظمة",      en:"Organization",qAr:"الأدوار والمسؤوليات وصلاحيات القرار محددة",           qEn:"Roles, responsibilities and decision rights are defined"},
+    {ar:"البيانات",     en:"Data",        qAr:"نقيس ما يهم، ونعرف مصدر كل رقم ومالكه",               qEn:"We measure what matters and know each number's source and owner"},
+    {ar:"النمو",        en:"Growth",      qAr:"لدينا فرضية نمو مكتوبة نختبرها، لا محاولات متفرقة",    qEn:"We have a written growth hypothesis we test, not scattered attempts"}
+  ];
+
+  var scores = {};
+  var lang = "ar";
+
+  function buildLenses(){
+    var host = document.getElementById("lensList");
+    host.innerHTML = "";
+    LENSES.forEach(function(lens, i){
+      var row = document.createElement("div");
+      row.className = "lens";
+
+      var label = document.createElement("div");
+      var name = document.createElement("div");
+      name.className = "lens-name";
+      name.setAttribute("data-ar", lens.ar);
+      name.setAttribute("data-en", lens.en);
+      name.textContent = lens[lang];
+      var q = document.createElement("div");
+      q.style.cssText = "font-size:13.5px;color:var(--muted);line-height:1.6";
+      q.setAttribute("data-ar", lens.qAr);
+      q.setAttribute("data-en", lens.qEn);
+      q.textContent = lang === "ar" ? lens.qAr : lens.qEn;
+      label.appendChild(name); label.appendChild(q);
+
+      var dots = document.createElement("div");
+      dots.className = "dots";
+      for (var v = 1; v <= 5; v++){
+        (function(val){
+          var b = document.createElement("button");
+          b.type = "button";
+          b.className = "dot";
+          b.textContent = val;
+          b.setAttribute("aria-pressed", "false");
+          b.setAttribute("aria-label", (lang === "ar" ? lens.ar : lens.en) + " — " + val);
+          b.addEventListener("click", function(){
+            scores[i] = val;
+            Array.prototype.forEach.call(dots.children, function(c, idx){
+              c.setAttribute("aria-pressed", String(idx + 1 === val));
+            });
+            render();
+          });
+          dots.appendChild(b);
+        })(v);
+      }
+
+      row.appendChild(label);
+      row.appendChild(dots);
+      host.appendChild(row);
+    });
+  }
+
+  function render(){
+    var keys = Object.keys(scores);
+    var box = document.getElementById("result");
+    if (keys.length < 4){ box.hidden = true; return; }
+
+    var worstVal = 6, worst = [];
+    keys.forEach(function(k){
+      var v = scores[k];
+      if (v < worstVal){ worstVal = v; worst = [k]; }
+      else if (v === worstVal){ worst.push(k); }
+    });
+    var names = worst.slice(0, 2).map(function(k){ return lang === "ar" ? LENSES[k].ar : LENSES[k].en; });
+    var sum = keys.reduce(function(a,k){ return a + scores[k]; }, 0);
+    var avg = (sum / keys.length).toFixed(1);
+
+    var txt, note;
+    if (lang === "ar"){
+      txt = "أضعف ما لديك الآن: <strong>" + names.join(" و") + "</strong> بدرجة " + worstVal + " من 5. "
+          + "هذه هي نقطة الاختناق المرجّحة — وهي المكان الذي يجب أن يبدأ منه العمل، لا القناة الأعلى ضجيجًا. "
+          + "متوسط ما قيّمته: " + avg + " من 5 على " + keys.length + " عدسة.";
+      note = keys.length < LENSES.length
+        ? "أكمل بقية العدسات لصورة أدق. ثم تذكّر: المتوسط يُخفي الاختناق، والعمل يبدأ من الأضعف."
+        : "المتوسط مؤشر مضلل بطبيعته؛ المؤسسة تتحرك بسرعة أضعف عدساتها لا بمتوسطها.";
+    } else {
+      txt = "Your weakest point right now: <strong>" + names.join(" and ") + "</strong>, scored " + worstVal + " out of 5. "
+          + "This is the probable bottleneck — and where work should begin, not the loudest channel. "
+          + "Average across what you scored: " + avg + " out of 5 on " + keys.length + " lenses.";
+      note = keys.length < LENSES.length
+        ? "Score the remaining lenses for a sharper picture. Remember: the average hides the bottleneck; work starts at the weakest."
+        : "Averages are misleading by nature; an organization moves at the speed of its weakest lens, not its mean.";
+    }
+    document.getElementById("resultText").innerHTML = txt;
+    document.getElementById("resultNote").textContent = note;
+    box.hidden = false;
+  }
+
+  function setLang(next){
+    lang = next;
+    var html = document.documentElement;
+    html.lang = next;
+    html.dir = next === "ar" ? "rtl" : "ltr";
+    document.title = next === "ar" ? "ELMUBARAK — نُحوّل التعقيد إلى قرار" : "ELMUBARAK — Turning complexity into clarity";
+    document.getElementById("langBtn").textContent = next === "ar" ? "English" : "العربية";
+    Array.prototype.forEach.call(document.querySelectorAll("[data-ar][data-en]"), function(el){
+      var val = el.getAttribute(next === "ar" ? "data-ar" : "data-en");
+      if (val !== null) el.innerHTML = val;
+    });
+    buildLenses();
+    // restore previously chosen dots
+    Object.keys(scores).forEach(function(k){
+      var row = document.getElementById("lensList").children[k];
+      if (!row) return;
+      var dots = row.querySelector(".dots");
+      Array.prototype.forEach.call(dots.children, function(c, idx){
+        c.setAttribute("aria-pressed", String(idx + 1 === scores[k]));
+      });
+    });
+    render();
+  }
+
+  document.getElementById("langBtn").addEventListener("click", function(){
+    setLang(lang === "ar" ? "en" : "ar");
+  });
+
+  buildLenses();
+})();
+</script>
+</body>
+</html>
