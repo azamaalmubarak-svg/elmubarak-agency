@@ -131,7 +131,7 @@ header{position:sticky;top:0;z-index:50;background:color-mix(in srgb,var(--bg) 9
 .nav+.tools{margin-inline-start:0}
 .lang{background:none;border:1px solid var(--rule);color:var(--muted);border-radius:999px;padding:6px 13px;font:inherit;font-size:13px;cursor:pointer}
 .lang:hover{border-color:var(--accent);color:var(--fg)}
-@media(min-width:900px){.nav{display:flex}}
+@media(min-width:1040px){.nav{display:flex}}
 
 /* ---------- buttons ---------- */
 .btn{display:inline-flex;align-items:center;justify-content:center;gap:8px;text-decoration:none;font-size:15px;font-weight:600;padding:13px 24px;border-radius:2px;border:1px solid transparent;cursor:pointer;background:none;font-family:inherit}
@@ -216,6 +216,27 @@ html[lang="en"] .hero .display{font-size:clamp(40px,9vw,76px);line-height:1.08;m
 .chan span:last-child{color:var(--muted);direction:ltr;font-family:"Inter",sans-serif;font-size:14px}
 .chan:hover span:last-child{color:var(--accent-ink)}
 
+/* ---------- timeline ---------- */
+.tl{margin-top:28px;border-top:1px solid var(--rule)}
+.tlrow{display:grid;grid-template-columns:auto 1fr;gap:6px 18px;padding-block:18px;border-bottom:1px solid var(--rule);align-items:baseline}
+.tlrow>b{font-family:"Inter",sans-serif;font-size:12.5px;font-weight:600;color:var(--accent-ink);letter-spacing:.04em;white-space:nowrap;min-width:66px}
+.tlrow p{margin:2px 0 0;color:var(--muted);font-size:15.5px}
+.tlrow h3{margin:0}
+
+/* ---------- insights ---------- */
+.note-item{padding-block:24px;border-bottom:1px solid var(--rule);max-width:70ch}
+.note-item:last-of-type{border-bottom:0}
+.note-item h3{font-size:19px;margin-bottom:8px}
+.note-item p{color:var(--muted);margin:0}
+
+/* ---------- form ---------- */
+.fld{display:block;margin-bottom:14px}
+.fld span{display:block;font-size:14px;font-weight:600;margin-bottom:6px}
+.fld input,.fld textarea{width:100%;font:inherit;font-size:15.5px;padding:11px 13px;background:var(--surface);color:var(--fg);border:1px solid var(--rule);border-radius:2px;resize:vertical}
+.fld input:focus,.fld textarea:focus{border-color:var(--accent);outline:none}
+.formmsg{margin-top:14px;padding:13px;font-size:14.5px;border:1px solid var(--gold-soft);background:var(--surface-2);color:var(--fg)}
+.formmsg[hidden]{display:none}
+
 footer{border-top:1px solid var(--rule);padding-block:30px;color:var(--muted);font-size:13.5px}
 .footrow{display:flex;flex-wrap:wrap;gap:10px 20px;align-items:center;justify-content:space-between}
 
@@ -255,8 +276,9 @@ footer{border-top:1px solid var(--rule);padding-block:30px;color:var(--muted);fo
       <a href="#method" data-ar="المنهجية" data-en="Method">المنهجية</a>
       <a href="#scorecard" data-ar="بطاقة الوضوح" data-en="Scorecard">بطاقة الوضوح</a>
       <a href="#diagnostic" data-ar="التشخيص" data-en="Diagnostic">التشخيص</a>
-      <a href="#services" data-ar="الخدمات" data-en="Services">الخدمات</a>
+      <a href="#process" data-ar="كيف نعمل" data-en="Process">كيف نعمل</a>
       <a href="#evidence" data-ar="الأدلة" data-en="Evidence">الأدلة</a>
+      <a href="#insights" data-ar="رؤى" data-en="Insights">رؤى</a>
       <a href="#articles" data-ar="مقالات" data-en="Articles">مقالات</a>
       <a href="#faq" data-ar="أسئلة" data-en="FAQ">أسئلة</a>
       <a href="#contact" data-ar="تواصل" data-en="Contact">تواصل</a>
@@ -419,6 +441,45 @@ footer{border-top:1px solid var(--rule);padding-block:30px;color:var(--muted);fo
   </div>
 </section>
 
+<!-- PROCESS -->
+<section id="process">
+  <div class="wrap">
+    <p class="mark" data-ar="كيف نعمل" data-en="How we work">كيف نعمل</p>
+    <h2 data-ar="خمسة عشر يومًا، موزّعة بوضوح" data-en="Fifteen days, clearly allocated">خمسة عشر يومًا، موزّعة بوضوح</h2>
+    <p class="lede" data-ar="لا مفاجآت في المدة ولا في النطاق. تعرف مسبقًا ما يحدث في كل مرحلة، وما هو مطلوب منك فيها." data-en="No surprises in timeline or scope. You know in advance what happens at each stage and what is required from you.">لا مفاجآت في المدة ولا في النطاق. تعرف مسبقًا ما يحدث في كل مرحلة، وما هو مطلوب منك فيها.</p>
+
+    <div class="tl">
+      <div class="tlrow"><b data-ar="اليوم صفر" data-en="Day 0">اليوم صفر</b><div><h3 data-ar="مكالمة استكشاف" data-en="Discovery call">مكالمة استكشاف</h3><p data-ar="عشرون دقيقة نحدد فيها ملاءمة التشخيص لحالتك. لا التزام مالي." data-en="Twenty minutes to establish whether the Diagnostic fits your case. No financial commitment.">عشرون دقيقة نحدد فيها ملاءمة التشخيص لحالتك. لا التزام مالي.</p></div></div>
+      <div class="tlrow"><b data-ar="١ – ٣" data-en="1 – 3">١ – ٣</b><div><h3 data-ar="الاكتشاف وجمع المواد" data-en="Discovery &amp; material collection">الاكتشاف وجمع المواد</h3><p data-ar="جلسة مع صاحب القرار، واستلام ما هو متاح: أرقام، مواد تسويقية، بيانات مبيعات." data-en="A session with the decision-maker, plus whatever exists: numbers, marketing materials, sales data.">جلسة مع صاحب القرار، واستلام ما هو متاح: أرقام، مواد تسويقية، بيانات مبيعات.</p></div></div>
+      <div class="tlrow"><b data-ar="٤ – ٨" data-en="4 – 8">٤ – ٨</b><div><h3 data-ar="التدقيق والمقابلات" data-en="Audit &amp; interviews">التدقيق والمقابلات</h3><p data-ar="مقارنة أربع صور: ما تقوله المؤسسة عن نفسها، وما يظنه العملاء، وما تبيعه فعلًا، وكيف تربح فعلًا." data-en="Comparing four pictures: what the business says it is, what customers think it is, what it actually sells, and how it actually makes money.">مقارنة أربع صور: ما تقوله المؤسسة عن نفسها، وما يظنه العملاء، وما تبيعه فعلًا، وكيف تربح فعلًا.</p></div></div>
+      <div class="tlrow"><b data-ar="٩ – ١١" data-en="9 – 11">٩ – ١١</b><div><h3 data-ar="الأسباب الجذرية والأولويات" data-en="Root causes &amp; prioritization">الأسباب الجذرية والأولويات</h3><p data-ar="من العَرَض إلى السبب، ثم ترتيب ما يستحق العمل عليه بمعادلة معلنة لا بالانطباع." data-en="From symptom to cause, then ranking what deserves work by a stated formula, not by impression.">من العَرَض إلى السبب، ثم ترتيب ما يستحق العمل عليه بمعادلة معلنة لا بالانطباع.</p></div></div>
+      <div class="tlrow"><b data-ar="١٢ – ١٤" data-en="12 – 14">١٢ – ١٤</b><div><h3 data-ar="صياغة القرار وخارطة الطريق" data-en="Decision &amp; roadmap">صياغة القرار وخارطة الطريق</h3><p data-ar="كتابة التقرير التنفيذي، وخطة 30/60/90، وشجرة المؤشرات بخط أساسها." data-en="Writing the executive report, the 30/60/90 plan, and the KPI tree with its baseline.">كتابة التقرير التنفيذي، وخطة 30/60/90، وشجرة المؤشرات بخط أساسها.</p></div></div>
+      <div class="tlrow"><b data-ar="اليوم ١٥" data-en="Day 15">اليوم ١٥</b><div><h3 data-ar="الجلسة التنفيذية" data-en="Executive session">الجلسة التنفيذية</h3><p data-ar="تسعون دقيقة لمناقشة القرار لا لعرض التقرير. تخرج منها بما ستبدأ به غدًا." data-en="Ninety minutes to work through the decision, not to present the report. You leave knowing what starts tomorrow.">تسعون دقيقة لمناقشة القرار لا لعرض التقرير. تخرج منها بما ستبدأ به غدًا.</p></div></div>
+    </div>
+
+    <div class="cols" style="margin-top:36px">
+      <div>
+        <h3 data-ar="ما نلتزم به" data-en="What we commit to">ما نلتزم به</h3>
+        <ul class="list">
+          <li data-ar="نطاق مكتوب ومدة محددة قبل بدء العمل" data-en="A written scope and a fixed timeline before work starts">نطاق مكتوب ومدة محددة قبل بدء العمل</li>
+          <li data-ar="كل رقم في التقرير له مصدر معلَن ودرجة ثقة" data-en="Every number in the report carries a stated source and a confidence grade">كل رقم في التقرير له مصدر معلَن ودرجة ثقة</li>
+          <li data-ar="الفجوات تُترك ظاهرة، ولا تُملأ بافتراضات" data-en="Gaps are left visible, never filled with assumptions">الفجوات تُترك ظاهرة، ولا تُملأ بافتراضات</li>
+          <li data-ar="سرية تامة لبياناتك، ولا نشر لأي نتيجة دون إذن مكتوب" data-en="Full confidentiality; no result is published without written consent">سرية تامة لبياناتك، ولا نشر لأي نتيجة دون إذن مكتوب</li>
+        </ul>
+      </div>
+      <div>
+        <h3 data-ar="ما نحتاجه منك" data-en="What we need from you">ما نحتاجه منك</h3>
+        <ul class="list">
+          <li data-ar="صاحب قرار واحد مسؤول عن الرد والاعتماد" data-en="One decision-maker accountable for responses and approvals">صاحب قرار واحد مسؤول عن الرد والاعتماد</li>
+          <li data-ar="الوصول إلى الأرقام المتاحة كما هي، لا كما نتمناها" data-en="Access to the numbers as they are, not as we wish they were">الوصول إلى الأرقام المتاحة كما هي، لا كما نتمناها</li>
+          <li data-ar="تسهيل مقابلة ثلاثة إلى خمسة من عملائك" data-en="Facilitating interviews with three to five of your customers">تسهيل مقابلة ثلاثة إلى خمسة من عملائك</li>
+          <li data-ar="استعداد لسماع تشخيص قد يخالف ما كنت تتوقعه" data-en="Readiness to hear a diagnosis that may contradict what you expected">استعداد لسماع تشخيص قد يخالف ما كنت تتوقعه</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
+
 <!-- EVIDENCE -->
 <section id="evidence">
   <div class="wrap">
@@ -440,11 +501,40 @@ footer{border-top:1px solid var(--rule);padding-block:30px;color:var(--muted);fo
   </div>
 </section>
 
+<!-- INSIGHTS -->
+<section id="insights">
+  <div class="wrap">
+    <p class="mark" data-ar="رؤى" data-en="Insights">رؤى</p>
+    <h2 data-ar="ملاحظات من الميدان" data-en="Notes from the field">ملاحظات من الميدان</h2>
+    <p class="lede" data-ar="أنماط تتكرر في المؤسسات التي نعمل معها. ليست نصائح عامة — بل ما نراه فعلًا في التشخيص." data-en="Patterns that recur in the organizations we work with. Not general advice — what we actually see in diagnosis.">أنماط تتكرر في المؤسسات التي نعمل معها. ليست نصائح عامة — بل ما نراه فعلًا في التشخيص.</p>
+
+    <article class="note-item">
+      <h3 data-ar="المتوسط يُخفي الاختناق" data-en="The average hides the bottleneck">المتوسط يُخفي الاختناق</h3>
+      <p data-ar="مؤسسة تسجل 4 من 5 في تسع عدسات و2 في عدستين ستقرأ متوسطها 3.6 وتطمئن. لكنها لا تتحرك بسرعة متوسطها بل بسرعة أضعف عدساتها. الشركات نادرًا ما تتعثر لأنها سيئة في كل شيء — بل لأنها ممتازة في تسعة أشياء وعاجزة في واحد يقع في مسار الإيراد مباشرة." data-en="A business scoring 4 of 5 on nine lenses and 2 on two will read its average as 3.6 and relax. But it moves at the speed of its weakest lens, not its mean. Companies rarely stall because they are bad at everything — they stall because they are excellent at nine things and unable at one that sits directly in the revenue path.">مؤسسة تسجل 4 من 5 في تسع عدسات و2 في عدستين ستقرأ متوسطها 3.6 وتطمئن. لكنها لا تتحرك بسرعة متوسطها بل بسرعة أضعف عدساتها. الشركات نادرًا ما تتعثر لأنها سيئة في كل شيء — بل لأنها ممتازة في تسعة أشياء وعاجزة في واحد يقع في مسار الإيراد مباشرة.</p>
+    </article>
+
+    <article class="note-item">
+      <h3 data-ar="الخصم لا يشتري ثقة" data-en="Discounts do not buy trust">الخصم لا يشتري ثقة</h3>
+      <p data-ar="حين يتردد العميل، يكون التفسير الجاهز دائمًا: السعر مرتفع. لكن أغلب التردد الذي نقابله في المقابلات ليس سعريًا بل مخاطرة مُتصوَّرة — لا يعرف ما سيحصل عليه بالضبط، ولا كيف يحكم على النتيجة. الخصم في هذه الحالة يخفض هامشك ويؤكد شك العميل في آنٍ واحد: لو كانت القيمة حقيقية، لماذا تُخفَّض بهذه السهولة؟" data-en="When a customer hesitates, the ready explanation is always price. But most hesitation we encounter in interviews is not about price — it is perceived risk: they do not know exactly what they will get, or how to judge the result. A discount here cuts your margin and confirms their doubt at once: if the value were real, why does it drop so easily?">حين يتردد العميل، يكون التفسير الجاهز دائمًا: السعر مرتفع. لكن أغلب التردد الذي نقابله في المقابلات ليس سعريًا بل مخاطرة مُتصوَّرة — لا يعرف ما سيحصل عليه بالضبط، ولا كيف يحكم على النتيجة. الخصم في هذه الحالة يخفض هامشك ويؤكد شك العميل في آنٍ واحد: لو كانت القيمة حقيقية، لماذا تُخفَّض بهذه السهولة؟</p>
+    </article>
+
+    <article class="note-item">
+      <h3 data-ar="النشاط ليس نتيجة" data-en="Activity is not outcome">النشاط ليس نتيجة</h3>
+      <p data-ar="عدد المنشورات ومعدل التفاعل ونمو المتابعين مؤشرات نشاط، لا مؤشرات أعمال. يمكن أن ترتفع الثلاثة بينما الإيراد ثابت — وهذا يحدث كثيرًا. المؤشر يستحق مكانه في التقرير فقط إذا كان له تعريف ومصدر ومالك وقرار مرتبط به: ماذا سنفعل تحديدًا إن انحرف؟ ما لا يقود إلى قرار هو زينة في تقرير." data-en="Post volume, engagement rate and follower growth are activity metrics, not business metrics. All three can rise while revenue stays flat — and often do. A metric earns its place in a report only if it has a definition, a source, an owner and an attached decision: what exactly will we do if it moves? Anything that leads to no decision is decoration.">عدد المنشورات ومعدل التفاعل ونمو المتابعين مؤشرات نشاط، لا مؤشرات أعمال. يمكن أن ترتفع الثلاثة بينما الإيراد ثابت — وهذا يحدث كثيرًا. المؤشر يستحق مكانه في التقرير فقط إذا كان له تعريف ومصدر ومالك وقرار مرتبط به: ماذا سنفعل تحديدًا إن انحرف؟ ما لا يقود إلى قرار هو زينة في تقرير.</p>
+    </article>
+
+    <article class="note-item">
+      <h3 data-ar="قبل التوسع: هل ما لديك قابل للتكرار؟" data-en="Before scaling: is what you have repeatable?">قبل التوسع: هل ما لديك قابل للتكرار؟</h3>
+      <p data-ar="الفرع الثاني لا يضاعف النجاح، بل يضاعف ما هو قائم — بما فيه الخلل. الاختبار العملي قبل أي توسع: هل بِيع هذا العرض مرتين على الأقل بنفس الطريقة؟ هل تعرف تكلفة تقديمه فعليًا؟ هل يستطيع شخص غيرك تنفيذه دون أن تتدخل؟ إن كانت إجابة واحدة لا، فأنت تنسخ اعتمادًا على شخص، لا نظامًا." data-en="A second branch does not double success — it doubles what exists, including the flaws. The practical test before scaling: has this offer been sold at least twice the same way? Do you know what it actually costs to deliver? Can someone other than you deliver it without your intervention? If any answer is no, you are replicating a dependency on a person, not a system.">الفرع الثاني لا يضاعف النجاح، بل يضاعف ما هو قائم — بما فيه الخلل. الاختبار العملي قبل أي توسع: هل بِيع هذا العرض مرتين على الأقل بنفس الطريقة؟ هل تعرف تكلفة تقديمه فعليًا؟ هل يستطيع شخص غيرك تنفيذه دون أن تتدخل؟ إن كانت إجابة واحدة لا، فأنت تنسخ اعتمادًا على شخص، لا نظامًا.</p>
+    </article>
+  </div>
+</section>
+
 <!-- ARTICLES -->
 <section id="articles">
   <div class="wrap">
     <p class="mark" data-ar="مقالات" data-en="Articles">مقالات</p>
-    <h2 data-ar="ملاحظات مبنية على أدلة، لا على انطباع" data-en="Notes built on evidence, not impression">ملاحظات مبنية على أدلة، لا على انطباع</h2>
+    <h2 data-ar="أرقام ودراسات، بمصادرها" data-en="Numbers and studies, with their sources">أرقام ودراسات، بمصادرها</h2>
     <p class="lede" data-ar="نفس قاعدتنا في التشخيص: لا رقم بلا مصدر. هذه القائمة تُحدَّث دوريًا كلما ظهر بحث أو تحوّل بالسوق يستحق التوقف عنده. آخر تحديث: سبتمبر 2026." data-en="Same rule as our diagnostics: no number without a source. This list is refreshed periodically whenever research or a market shift is worth stopping for. Last updated: September 2026.">نفس قاعدتنا في التشخيص: لا رقم بلا مصدر. هذه القائمة تُحدَّث دوريًا كلما ظهر بحث أو تحوّل بالسوق يستحق التوقف عنده. آخر تحديث: سبتمبر 2026.</p>
 
     <div class="case">
@@ -541,9 +631,30 @@ footer{border-top:1px solid var(--rule);padding-block:30px;color:var(--muted);fo
   <div class="wrap">
     <h2 data-ar="الخطوة التالية: مكالمة عشرين دقيقة" data-en="Next step: a twenty-minute call">الخطوة التالية: مكالمة عشرين دقيقة</h2>
     <p class="lede" data-ar="مكالمة قصيرة نحدد فيها ما إذا كان التشخيص مناسبًا لحالتك أصلًا. إن لم يكن، سنقول ذلك — ولا نقبل مشروعًا يتعذّر تعريف نجاحه أو تحديد مالكه." data-en="A short call to determine whether the Diagnostic is even the right fit. If it isn't, we will say so — and we decline any project whose success or owner cannot be defined.">مكالمة قصيرة نحدد فيها ما إذا كان التشخيص مناسبًا لحالتك أصلًا. إن لم يكن، سنقول ذلك — ولا نقبل مشروعًا يتعذّر تعريف نجاحه أو تحديد مالكه.</p>
-    <div class="contact">
+    <div class="cols" style="margin-top:34px">
+      <div>
+        <h3 data-ar="اطلب مكالمة" data-en="Request a call">اطلب مكالمة</h3>
+        <form id="leadForm" name="diagnostic-request" method="POST" data-netlify="true" netlify-honeypot="company-website">
+          <input type="hidden" name="form-name" value="diagnostic-request">
+          <input type="hidden" name="weakest-lens" id="weakestLens" value="">
+          <p style="display:none"><label>Do not fill<input name="company-website"></label></p>
+
+          <label class="fld"><span data-ar="الاسم" data-en="Name">الاسم</span><input type="text" name="name" required autocomplete="name"></label>
+          <label class="fld"><span data-ar="المؤسسة والقطاع" data-en="Organization &amp; sector">المؤسسة والقطاع</span><input type="text" name="organization" required></label>
+          <label class="fld"><span data-ar="واتساب أو بريد إلكتروني" data-en="WhatsApp or email">واتساب أو بريد إلكتروني</span><input type="text" name="contact" required></label>
+          <label class="fld"><span data-ar="ما أكبر عائق أمام نموك الآن؟" data-en="What is the biggest obstacle to your growth right now?">ما أكبر عائق أمام نموك الآن؟</span><textarea name="obstacle" rows="4" required></textarea></label>
+
+          <button class="btn btn-primary" type="submit" style="width:100%;margin-top:6px" data-ar="أرسل الطلب" data-en="Send request">أرسل الطلب</button>
+          <p class="formmsg" id="formMsg" role="status" hidden></p>
+        </form>
+      </div>
+      <div>
+        <h3 data-ar="أو تواصل مباشرة" data-en="Or reach out directly">أو تواصل مباشرة</h3>
+        <div class="contact">
       <a class="chan" href="https://wa.me/249999920087" id="ch-wa"><span data-ar="واتساب" data-en="WhatsApp">واتساب</span><span>+249 99 992 0087</span></a>
       <a class="chan" href="mailto:azamaalmubarak@gmail.com" id="ch-mail"><span data-ar="البريد الإلكتروني" data-en="Email">البريد الإلكتروني</span><span>azamaalmubarak@gmail.com</span></a>
+    </div>
+      </div>
     </div>
     <div class="btns">
       <a class="btn btn-primary" href="https://wa.me/249999920087?text=%D8%A7%D9%84%D8%B3%D9%84%D8%A7%D9%85%20%D8%B9%D9%84%D9%8A%D9%83%D9%85%D8%8C%20%D8%A3%D8%B1%D8%BA%D8%A8%20%D9%81%D9%8A%20%D9%85%D9%83%D8%A7%D9%84%D9%85%D8%A9%20%D8%A7%D8%B3%D8%AA%D9%83%D8%B4%D8%A7%D9%81%20%D8%A8%D8%B4%D8%A3%D9%86%20%D8%A7%D9%84%D8%AA%D8%B4%D8%AE%D9%8A%D8%B5" data-ar="ابدأ المحادثة" data-en="Start the conversation">ابدأ المحادثة</a>
@@ -661,6 +772,8 @@ footer{border-top:1px solid var(--rule);padding-block:30px;color:var(--muted);fo
     }
     document.getElementById("resultText").innerHTML = txt;
     document.getElementById("resultNote").textContent = note;
+    var hidden = document.getElementById("weakestLens");
+    if (hidden) hidden.value = worst.map(function(k){ return LENSES[k].ar + " (" + LENSES[k].en + ")"; }).join(", ") + " — " + worstVal + "/5";
     box.hidden = false;
   }
 
@@ -691,6 +804,36 @@ footer{border-top:1px solid var(--rule);padding-block:30px;color:var(--muted);fo
   document.getElementById("langBtn").addEventListener("click", function(){
     setLang(lang === "ar" ? "en" : "ar");
   });
+
+
+  var form = document.getElementById("leadForm");
+  if (form){
+    form.addEventListener("submit", function(e){
+      e.preventDefault();
+      var msg = document.getElementById("formMsg");
+      var btn = form.querySelector("button[type=submit]");
+      var body = new URLSearchParams(new FormData(form)).toString();
+      btn.disabled = true;
+      msg.hidden = false;
+      msg.textContent = lang === "ar" ? "جارٍ الإرسال…" : "Sending…";
+
+      fetch("/", {
+        method: "POST",
+        headers: {"Content-Type": "application/x-www-form-urlencoded"},
+        body: body
+      }).then(function(r){
+        if (!r.ok) throw new Error("bad status");
+        form.reset();
+        msg.textContent = lang === "ar"
+          ? "وصلنا طلبك. سنتواصل خلال يوم عمل واحد لتحديد موعد المكالمة."
+          : "Your request has been received. We will be in touch within one business day to schedule the call.";
+      }).catch(function(){
+        msg.innerHTML = lang === "ar"
+          ? 'تعذّر الإرسال من هذه النسخة. راسلنا مباشرة على <a href="https://wa.me/249999920087">واتساب</a> أو <a href="mailto:azamaalmubarak@gmail.com">البريد</a>.'
+          : 'Submission is unavailable on this copy. Reach us directly on <a href="https://wa.me/249999920087">WhatsApp</a> or by <a href="mailto:azamaalmubarak@gmail.com">email</a>.';
+      }).then(function(){ btn.disabled = false; });
+    });
+  }
 
   buildLenses();
 })();
