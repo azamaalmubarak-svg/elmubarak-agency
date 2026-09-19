@@ -10,6 +10,21 @@
     </image:image>
   </url>
   <url>
+    <loc>https://elmubarak-agency.netlify.app/diagnostic/</loc>
+  </url>
+  <url>
+    <loc>https://elmubarak-agency.netlify.app/services/</loc>
+  </url>
+  <url>
+    <loc>https://elmubarak-agency.netlify.app/about/</loc>
+  </url>
+  <url>
+    <loc>https://elmubarak-agency.netlify.app/insights/</loc>
+  </url>
+  <url>
+    <loc>https://elmubarak-agency.netlify.app/contact/</loc>
+  </url>
+  <url>
     <loc>https://elmubarak-agency.netlify.app/clarity-scan/</loc>
   </url>
 </urlset>
