@@ -143,3 +143,5 @@ html[lang="en"] .founder-quote{font-family:"Cormorant Garamond",Georgia,serif}
 .foot-nav a:hover{color:var(--fg);text-decoration:underline}
 .foot-meta{display:flex;flex-wrap:wrap;gap:10px 22px;justify-content:space-between;align-items:center}
 .foot-note{max-width:70ch;font-size:13px;margin:0}
+/* single H1 on inner pages: same look as the section H2 it replaces */
+h1.page-h1{font-size:clamp(25px,4.6vw,38px);line-height:1.35;margin:0 0 10px;font-weight:600;letter-spacing:-.01em}
