@@ -2,6 +2,7 @@
 .scan-hero{padding-block:clamp(48px,9vw,92px) clamp(24px,4vw,44px)}
 .scan-hero .display{font-size:clamp(32px,7.4vw,60px);line-height:1.25;margin:0 0 20px;letter-spacing:-.015em;max-width:15ch}
 .scan-hero .lede{max-width:46ch}
+.scan-hero .reveal{opacity:1;animation-name:rise-t}
 #scan{padding-block:0 clamp(52px,8vw,100px);border-top:0}
 .scan{max-width:840px}
 .scan-card{background:var(--surface);border:1px solid var(--rule);box-shadow:var(--shadow);padding:clamp(20px,4vw,42px)}

@@ -7,8 +7,22 @@
 /assets/*
   Cache-Control: public, max-age=604800
 
+/favicon.ico
+  Cache-Control: public, max-age=604800
+
+/og-image.jpg
+  Cache-Control: public, max-age=604800
+
 /css/*
   Cache-Control: public, max-age=3600
 
 /js/*
   Cache-Control: public, max-age=3600
+
+/robots.txt
+  Cache-Control: public, max-age=3600
+  Content-Type: text/plain; charset=UTF-8
+
+/sitemap.xml
+  Cache-Control: public, max-age=3600
+  Content-Type: application/xml; charset=UTF-8
