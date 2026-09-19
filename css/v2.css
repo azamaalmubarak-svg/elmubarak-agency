@@ -40,7 +40,15 @@ html.i18n-pending body{opacity:0}
 .nav a.is-scan{color:var(--accent-ink)}
 
 /* hero */
+/* the single H1 carries the brand line (styled as the eyebrow) and the tagline (styled as the display heading) */
+.hero-h1{margin:0;font:inherit;line-height:inherit;font-weight:inherit}
+.hero-h1 .mark,.hero-h1 .display{display:block}
+/* LCP: hero text is painted from the first frame; the entrance keeps its movement but no longer starts invisible */
+@keyframes rise-t{from{transform:translateY(10px)}to{transform:none}}
+.hero .reveal{opacity:1;animation-name:rise-t}
 .hero .lede{max-width:52ch}
+.lede a{color:var(--accent-ink);text-underline-offset:3px}
+.alt-name{display:inline-block;font-family:"Inter",sans-serif;font-size:.62em;font-weight:500;letter-spacing:.02em;color:var(--muted);white-space:nowrap}
 .hero-note{font-size:14px;color:var(--muted);margin:20px 0 0}
 
 /* problem: "marketing is not always the problem" */

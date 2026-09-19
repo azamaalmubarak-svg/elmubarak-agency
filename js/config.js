@@ -60,7 +60,7 @@
       startScan: { ar: "ابدأ التشخيص", en: "Start the diagnostic" },
       discoverMethod: { ar: "اكتشف منهجنا", en: "Explore our method" },
       discoverFingerprint: { ar: "اكتشف بصمتك", en: "Discover your fingerprint" },
-      talk: { ar: "تحدث مع ELMUBARAK", en: "Talk to ELMUBARAK" },
+      talk: { ar: "تحدث مع المبارك", en: "Talk to El Mubarak Agency" },
       requestDiagnostic: { ar: "اطلب تشخيصًا متكاملًا", en: "Request the full Diagnostic" },
       startFullDiagnostic: { ar: "ابدأ التشخيص المتكامل", en: "Start the full Diagnostic" }
     }

@@ -1,0 +1,3 @@
+# One canonical URL per page: send the explicit index.html paths to the clean URLs.
+/index.html                 /                 301!
+/clarity-scan/index.html    /clarity-scan/    301!
