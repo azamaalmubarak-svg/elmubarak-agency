@@ -119,7 +119,7 @@
       "alternateName": ["Azama Almubarak"],
       "jobTitle": ["Strategic Marketing & Business Development Consultant", "مستشار استراتيجي في التسويق وتطوير الأعمال"],
       "description": "مؤسس المبارك (El Mubarak Agency) ومستشار استراتيجي في التسويق وتطوير الأعمال.",
-      "url": "https://elmubarak-agency.netlify.app/#about",
+      "url": "https://elmubarak-agency.netlify.app/about/",
       "worksFor": { "@id": "https://elmubarak-agency.netlify.app/#organization" },
       "knowsAbout": ["التسويق الاستراتيجي", "تطوير الأعمال", "Strategic marketing", "Business development", "Brand positioning", "Growth strategy"]
     },
@@ -163,19 +163,18 @@
 
 <header>
   <div class="wrap bar">
-    <a class="logo" href="#top" aria-label="ELMUBARAK — المبارك للتسويق وتطوير الأعمال" data-aria-label-ar="ELMUBARAK — المبارك للتسويق وتطوير الأعمال" data-aria-label-en="ELMUBARAK — El Mubarak Agency">
+    <a class="logo" href="/" aria-label="ELMUBARAK — المبارك للتسويق وتطوير الأعمال" data-aria-label-ar="ELMUBARAK — المبارك للتسويق وتطوير الأعمال" data-aria-label-en="ELMUBARAK — El Mubarak Agency">
       <img class="glyph glyph-light" src="/assets/logo-navy-88.png" alt="شعار المبارك للتسويق وتطوير الأعمال" data-alt-ar="شعار المبارك للتسويق وتطوير الأعمال" data-alt-en="El Mubarak Agency logo" width="22" height="22" loading="eager" fetchpriority="high" decoding="async">
       <img class="glyph glyph-dark" src="/assets/logo-gold-88.png" alt="شعار المبارك للتسويق وتطوير الأعمال" data-alt-ar="شعار المبارك للتسويق وتطوير الأعمال" data-alt-en="El Mubarak Agency logo" width="22" height="22" loading="lazy" decoding="async">
       <b>ELMUBARAK</b>
     </a>
     <nav class="nav" id="siteNav" data-aria-label-ar="التنقل الرئيسي" data-aria-label-en="Main navigation" aria-label="التنقل الرئيسي">
-      <a href="#method" data-ar="المنهجية" data-en="Method">المنهجية</a>
-      <a href="#diagnostic" data-ar="التشخيص" data-en="Diagnostic">التشخيص</a>
-      <a href="#services" data-ar="الخدمات" data-en="Services">الخدمات</a>
-      <a href="#evidence" data-ar="الأدلة" data-en="Evidence">الأدلة</a>
-      <a href="#insights" data-ar="رؤى" data-en="Insights">رؤى</a>
-      <a href="#about" data-ar="من نحن" data-en="About">من نحن</a>
-      <a class="is-scan" href="#clarity">Clarity Scan</a>
+      <a href="/#method" data-ar="المنهجية" data-en="Method">المنهجية</a>
+      <a href="/diagnostic/" data-ar="التشخيص" data-en="Diagnostic">التشخيص</a>
+      <a href="/services/" data-ar="الخدمات" data-en="Services">الخدمات</a>
+      <a href="/insights/" data-ar="رؤى" data-en="Insights">رؤى</a>
+      <a href="/about/" data-ar="من نحن" data-en="About">من نحن</a>
+      <a class="is-scan" href="/clarity-scan/">Clarity Scan</a>
     </nav>
     <div class="tools">
       <button class="lang" id="langBtn" type="button">English</button>
@@ -188,7 +187,6 @@
 <main id="top">
 <div id="main" tabindex="-1"></div>
 
-<!-- HERO -->
 <section class="hero">
   <div class="wrap">
     <h1 class="hero-h1">
@@ -204,7 +202,6 @@
   </div>
 </section>
 
-<!-- WHY -->
 <section id="why">
   <div class="wrap">
     <p class="mark" data-ar="المشكلة" data-en="The problem">المشكلة</p>
@@ -240,7 +237,6 @@
   </div>
 </section>
 
-<!-- CLARITY -->
 <section id="clarity">
   <div class="wrap scan-teaser">
     <div>
@@ -278,7 +274,6 @@
   </div>
 </section>
 
-<!-- METHOD -->
 <section id="method">
   <div class="wrap">
     <p class="mark" data-ar="إطار العمل" data-en="The framework">إطار العمل</p>
@@ -316,431 +311,39 @@
   </div>
 </section>
 
-<!-- SCORECARD -->
-<section id="scorecard">
+<section id="explore">
   <div class="wrap">
-    <p class="mark" data-ar="أداة القياس" data-en="The instrument">أداة القياس</p>
-    <h2 data-ar="بطاقة الوضوح — إحدى عشرة عدسة" data-en="The Clarity Scorecard — eleven lenses">بطاقة الوضوح — إحدى عشرة عدسة</h2>
-    <p class="lede" data-ar="قيّم كل عدسة من 1 (غير واضح إطلاقًا) إلى 5 (واضح وموثّق ومُقاس). المتوسط لا يعنينا — تعنينا أضعف عدسة." data-en="Score each lens from 1 (no clarity at all) to 5 (clear, documented and measured). The average does not matter — the weakest lens does.">قيّم كل عدسة من 1 (غير واضح إطلاقًا) إلى 5 (واضح وموثّق ومُقاس). المتوسط لا يعنينا — تعنينا أضعف عدسة.</p>
-
-    <div class="card">
-      <div id="lensList"></div>
-      <div class="result" id="result" hidden>
-        <p id="resultText"></p>
-        <p class="small" id="resultNote"></p>
-        <div class="btns" style="margin-top:14px">
-          <a class="btn btn-primary" href="#contact" data-ar="ناقش هذه النتيجة معنا" data-en="Discuss this result with us">ناقش هذه النتيجة معنا</a>
-        </div>
-      </div>
-    </div>
-    <p class="note" data-ar="هذه أداة تقدير ذاتي، لا تشخيصًا. التشخيص يتحقق من التقدير بالأدلة والمقابلات والبيانات، وقد يقلبه." data-en="This is a self-estimate, not a diagnosis. The Diagnostic tests that estimate against evidence, interviews and data — and may overturn it.">هذه أداة تقدير ذاتي، لا تشخيصًا. التشخيص يتحقق من التقدير بالأدلة والمقابلات والبيانات، وقد يقلبه.</p>
-  </div>
-</section>
-
-<!-- DIAGNOSTIC -->
-<section id="diagnostic">
-  <div class="wrap">
-    <p class="mark" data-ar="المنتج الرئيسي" data-en="The lead product">المنتج الرئيسي</p>
-    <h2 data-ar="تشخيص الأعمال والتسويق" data-en="Business &amp; Marketing Diagnostic">تشخيص الأعمال والتسويق</h2>
-    <p class="lede" data-ar="خمسة عشر يوم عمل (20–25 يومًا للحالات الأعمق أو تعدد أصحاب القرار). المخرج ليس تقريرًا للقراءة — بل قرارًا قابلًا للتنفيذ." data-en="Fifteen working days (20–25 for deeper cases or multiple stakeholders). The output is not a report to read — it is a decision you can act on.">خمسة عشر يوم عمل (20–25 يومًا للحالات الأعمق أو تعدد أصحاب القرار). المخرج ليس تقريرًا للقراءة — بل قرارًا قابلًا للتنفيذ.</p>
-
-    <h3 class="sub-h" data-ar="ما نفحصه" data-en="What we examine">ما نفحصه</h3>
-    <ul class="tags" style="margin-top:8px">
-      <li data-ar="السوق" data-en="Market">السوق</li>
-      <li data-ar="العميل" data-en="Customer">العميل</li>
-      <li data-ar="التموضع" data-en="Positioning">التموضع</li>
-      <li data-ar="العرض" data-en="Offer">العرض</li>
-      <li data-ar="التسعير" data-en="Pricing">التسعير</li>
-      <li data-ar="التسويق" data-en="Marketing">التسويق</li>
-      <li data-ar="المبيعات" data-en="Sales">المبيعات</li>
-      <li data-ar="تجربة العميل" data-en="Customer experience">تجربة العميل</li>
-      <li data-ar="التشغيل" data-en="Operations">التشغيل</li>
-      <li data-ar="النمو" data-en="Growth">النمو</li>
-    </ul>
-
-    <div class="cols">
-      <div>
-        <h3 data-ar="ما تستلمه" data-en="What you receive">ما تستلمه</h3>
-        <ul class="list">
-          <li data-ar="تقرير تشخيص تنفيذي، 8–15 صفحة" data-en="Executive diagnosis report, 8–15 pages">تقرير تشخيص تنفيذي، 8–15 صفحة</li>
-          <li data-ar="بطاقة الوضوح بالعدسات الإحدى عشرة + درجة ثقة لكل عدسة" data-en="Clarity Scorecard across eleven lenses, with a confidence grade per lens">بطاقة الوضوح بالعدسات الإحدى عشرة + درجة ثقة لكل عدسة</li>
-          <li data-ar="خريطة العَرَض ← السبب الجذري" data-en="Symptom → root-cause map">خريطة العَرَض ← السبب الجذري</li>
-          <li data-ar="خريطة الفرص" data-en="Opportunity map">خريطة الفرص</li>
-          <li data-ar="مصفوفة الأولويات (الأثر × الإلحاح × الثقة ÷ الجهد)" data-en="Priority matrix (Impact × Urgency × Confidence ÷ Effort)">مصفوفة الأولويات (الأثر × الإلحاح × الثقة ÷ الجهد)</li>
-          <li data-ar="ملاحظات التموضع وبنية العرض" data-en="Positioning and offer-architecture observations">ملاحظات التموضع وبنية العرض</li>
-          <li data-ar="خارطة طريق 30 / 60 / 90 يومًا" data-en="30 / 60 / 90-day roadmap">خارطة طريق 30 / 60 / 90 يومًا</li>
-          <li data-ar="شجرة المؤشرات وخط الأساس المطلوب" data-en="KPI tree and the baseline it requires">شجرة المؤشرات وخط الأساس المطلوب</li>
-          <li data-ar="جلسة تنفيذية 90 دقيقة لمناقشة القرار" data-en="90-minute executive session to work through the decision">جلسة تنفيذية 90 دقيقة لمناقشة القرار</li>
-        </ul>
-      </div>
-      <div>
-        <h3 data-ar="الأسئلة التي يجيب عنها" data-en="The questions it answers">الأسئلة التي يجيب عنها</h3>
-        <ul class="list">
-          <li data-ar="أين نقف الآن، بالأدلة لا بالانطباع؟" data-en="Where do we stand now — by evidence, not impression?">أين نقف الآن، بالأدلة لا بالانطباع؟</li>
-          <li data-ar="ما نقطة الاختناق الحقيقية؟" data-en="What is the real bottleneck?">ما نقطة الاختناق الحقيقية؟</li>
-          <li data-ar="لماذا وُجدت؟ ما سببها الجذري؟" data-en="Why does it exist — what is the root cause?">لماذا وُجدت؟ ما سببها الجذري؟</li>
-          <li data-ar="ما الأهم من بين كل ما يمكن فعله؟" data-en="Of everything we could do, what matters most?">ما الأهم من بين كل ما يمكن فعله؟</li>
-          <li data-ar="بماذا نبدأ في الثلاثين يومًا الأولى؟" data-en="What do we start with in the first 30 days?">بماذا نبدأ في الثلاثين يومًا الأولى؟</li>
-          <li data-ar="كيف سنعرف أنه نجح؟" data-en="How will we know it worked?">كيف سنعرف أنه نجح؟</li>
-        </ul>
-      </div>
-    </div>
-
-    <div class="tiers">
-      <div class="tier">
-        <h3><span data-ar="مستوى التركيز" data-en="Focus">مستوى التركيز</span> <em>Focus</em></h3>
-        <p class="scope" data-ar="مشكلة استراتيجية محددة." data-en="One specific strategic problem.">مشكلة استراتيجية محددة.</p>
-        <p data-ar="مهني مستقل أو نشاط صغير. صاحب قرار واحد، نطاق واحد، تشخيص مركّز." data-en="Independent professional or small business. One decision-maker, one scope, a focused diagnosis.">مهني مستقل أو نشاط صغير. صاحب قرار واحد، نطاق واحد، تشخيص مركّز.</p>
-      </div>
-      <div class="tier">
-        <h3><span data-ar="المستوى الأساسي" data-en="Core">المستوى الأساسي</span> <em>Core</em></h3>
-        <p class="scope" data-ar="نظام تسويق ونمو متكامل." data-en="An integrated marketing and growth system.">نظام تسويق ونمو متكامل.</p>
-        <p data-ar="منشأة متوسطة أو مؤسسة تعليمية أو صحية. عدة أصحاب قرار، مقابلات عملاء، تحليل بيانات." data-en="An SME, school or clinic. Several stakeholders, customer interviews, data analysis.">منشأة متوسطة أو مؤسسة تعليمية أو صحية. عدة أصحاب قرار، مقابلات عملاء، تحليل بيانات.</p>
-      </div>
-      <div class="tier">
-        <h3><span data-ar="المستوى المؤسسي" data-en="Institutional">المستوى المؤسسي</span> <em>Institutional</em></h3>
-        <p class="scope" data-ar="تحول استراتيجي طويل المدى." data-en="Long-term strategic transformation.">تحول استراتيجي طويل المدى.</p>
-        <p data-ar="مؤسسة متعددة الفروع أو الخطوط. بحث أعمق، قرارات عالية الحساسية، عرض على مجلس الإدارة." data-en="Multi-branch or multi-line organizations. Deeper research, high-sensitivity decisions, board-level presentation.">مؤسسة متعددة الفروع أو الخطوط. بحث أعمق، قرارات عالية الحساسية، عرض على مجلس الإدارة.</p>
-      </div>
-    </div>
-    <p class="note" data-ar="التسعير على التعقيد وعدد أصحاب القرار وعمق البحث وحساسية القرار — لا على عدد الساعات. يُحدَّد بعد مكالمة الاستكشاف." data-en="Pricing follows complexity, stakeholder count, research depth and decision sensitivity — not hours. Set after the discovery call.">التسعير على التعقيد وعدد أصحاب القرار وعمق البحث وحساسية القرار — لا على عدد الساعات. يُحدَّد بعد مكالمة الاستكشاف.</p>
-    <div class="btns">
-      <a class="btn btn-primary" href="#talk" data-cta="requestDiagnostic">اطلب تشخيصًا متكاملًا</a>
-      <a class="btn btn-ghost" href="/clarity-scan/" data-cta="discoverFingerprint">اكتشف بصمتك</a>
-    </div>
-  </div>
-</section>
-
-<!-- PROCESS -->
-<section id="process">
-  <div class="wrap">
-    <p class="mark" data-ar="كيف نعمل" data-en="How we work">كيف نعمل</p>
-    <h2 data-ar="خمسة عشر يومًا، موزّعة بوضوح" data-en="Fifteen days, clearly allocated">خمسة عشر يومًا، موزّعة بوضوح</h2>
-    <p class="lede" data-ar="لا مفاجآت في المدة ولا في النطاق. تعرف مسبقًا ما يحدث في كل مرحلة، وما هو مطلوب منك فيها." data-en="No surprises in timeline or scope. You know in advance what happens at each stage and what is required from you.">لا مفاجآت في المدة ولا في النطاق. تعرف مسبقًا ما يحدث في كل مرحلة، وما هو مطلوب منك فيها.</p>
-
-    <div class="tl">
-      <div class="tlrow"><b data-ar="اليوم صفر" data-en="Day 0">اليوم صفر</b><div><h3 data-ar="مكالمة استكشاف" data-en="Discovery call">مكالمة استكشاف</h3><p data-ar="عشرون دقيقة نحدد فيها ملاءمة التشخيص لحالتك. لا التزام مالي." data-en="Twenty minutes to establish whether the Diagnostic fits your case. No financial commitment.">عشرون دقيقة نحدد فيها ملاءمة التشخيص لحالتك. لا التزام مالي.</p></div></div>
-      <div class="tlrow"><b data-ar="١ – ٣" data-en="1 – 3">١ – ٣</b><div><h3 data-ar="الاكتشاف وجمع المواد" data-en="Discovery &amp; material collection">الاكتشاف وجمع المواد</h3><p data-ar="جلسة مع صاحب القرار، واستلام ما هو متاح: أرقام، مواد تسويقية، بيانات مبيعات." data-en="A session with the decision-maker, plus whatever exists: numbers, marketing materials, sales data.">جلسة مع صاحب القرار، واستلام ما هو متاح: أرقام، مواد تسويقية، بيانات مبيعات.</p></div></div>
-      <div class="tlrow"><b data-ar="٤ – ٨" data-en="4 – 8">٤ – ٨</b><div><h3 data-ar="التدقيق والمقابلات" data-en="Audit &amp; interviews">التدقيق والمقابلات</h3><p data-ar="مقارنة أربع صور: ما تقوله المؤسسة عن نفسها، وما يظنه العملاء، وما تبيعه فعلًا، وكيف تربح فعلًا." data-en="Comparing four pictures: what the business says it is, what customers think it is, what it actually sells, and how it actually makes money.">مقارنة أربع صور: ما تقوله المؤسسة عن نفسها، وما يظنه العملاء، وما تبيعه فعلًا، وكيف تربح فعلًا.</p></div></div>
-      <div class="tlrow"><b data-ar="٩ – ١١" data-en="9 – 11">٩ – ١١</b><div><h3 data-ar="الأسباب الجذرية والأولويات" data-en="Root causes &amp; prioritization">الأسباب الجذرية والأولويات</h3><p data-ar="من العَرَض إلى السبب، ثم ترتيب ما يستحق العمل عليه بمعادلة معلنة لا بالانطباع." data-en="From symptom to cause, then ranking what deserves work by a stated formula, not by impression.">من العَرَض إلى السبب، ثم ترتيب ما يستحق العمل عليه بمعادلة معلنة لا بالانطباع.</p></div></div>
-      <div class="tlrow"><b data-ar="١٢ – ١٤" data-en="12 – 14">١٢ – ١٤</b><div><h3 data-ar="صياغة القرار وخارطة الطريق" data-en="Decision &amp; roadmap">صياغة القرار وخارطة الطريق</h3><p data-ar="كتابة التقرير التنفيذي، وخطة 30/60/90، وشجرة المؤشرات بخط أساسها." data-en="Writing the executive report, the 30/60/90 plan, and the KPI tree with its baseline.">كتابة التقرير التنفيذي، وخطة 30/60/90، وشجرة المؤشرات بخط أساسها.</p></div></div>
-      <div class="tlrow"><b data-ar="اليوم ١٥" data-en="Day 15">اليوم ١٥</b><div><h3 data-ar="الجلسة التنفيذية" data-en="Executive session">الجلسة التنفيذية</h3><p data-ar="تسعون دقيقة لمناقشة القرار لا لعرض التقرير. تخرج منها بما ستبدأ به غدًا." data-en="Ninety minutes to work through the decision, not to present the report. You leave knowing what starts tomorrow.">تسعون دقيقة لمناقشة القرار لا لعرض التقرير. تخرج منها بما ستبدأ به غدًا.</p></div></div>
-    </div>
-
-    <div class="cols" style="margin-top:36px">
-      <div>
-        <h3 data-ar="ما نلتزم به" data-en="What we commit to">ما نلتزم به</h3>
-        <ul class="list">
-          <li data-ar="نطاق مكتوب ومدة محددة قبل بدء العمل" data-en="A written scope and a fixed timeline before work starts">نطاق مكتوب ومدة محددة قبل بدء العمل</li>
-          <li data-ar="كل رقم في التقرير له مصدر معلَن ودرجة ثقة" data-en="Every number in the report carries a stated source and a confidence grade">كل رقم في التقرير له مصدر معلَن ودرجة ثقة</li>
-          <li data-ar="الفجوات تُترك ظاهرة، ولا تُملأ بافتراضات" data-en="Gaps are left visible, never filled with assumptions">الفجوات تُترك ظاهرة، ولا تُملأ بافتراضات</li>
-          <li data-ar="سرية تامة لبياناتك، ولا نشر لأي نتيجة دون إذن مكتوب" data-en="Full confidentiality; no result is published without written consent">سرية تامة لبياناتك، ولا نشر لأي نتيجة دون إذن مكتوب</li>
-        </ul>
-      </div>
-      <div>
-        <h3 data-ar="ما نحتاجه منك" data-en="What we need from you">ما نحتاجه منك</h3>
-        <ul class="list">
-          <li data-ar="صاحب قرار واحد مسؤول عن الرد والاعتماد" data-en="One decision-maker accountable for responses and approvals">صاحب قرار واحد مسؤول عن الرد والاعتماد</li>
-          <li data-ar="الوصول إلى الأرقام المتاحة كما هي، لا كما نتمناها" data-en="Access to the numbers as they are, not as we wish they were">الوصول إلى الأرقام المتاحة كما هي، لا كما نتمناها</li>
-          <li data-ar="تسهيل مقابلة ثلاثة إلى خمسة من عملائك" data-en="Facilitating interviews with three to five of your customers">تسهيل مقابلة ثلاثة إلى خمسة من عملائك</li>
-          <li data-ar="استعداد لسماع تشخيص قد يخالف ما كنت تتوقعه" data-en="Readiness to hear a diagnosis that may contradict what you expected">استعداد لسماع تشخيص قد يخالف ما كنت تتوقعه</li>
-        </ul>
-      </div>
-    </div>
-  </div>
-</section>
-
-<!-- SERVICES -->
-<section id="services">
-  <div class="wrap">
-    <p class="mark" data-ar="الخدمات" data-en="Services">الخدمات</p>
-    <h2 data-ar="الخدمات الاستراتيجية: نعمل حول النتيجة، لا حول القناة" data-en="Strategic services: we work around the outcome, not the channel">الخدمات الاستراتيجية: نعمل حول النتيجة، لا حول القناة</h2>
-    <p class="lede" data-ar="أربعة مسارات في استشارات التسويق وتطوير الأعمال تجمع ما يحتاجه القرار، لا قائمة أدوات منفصلة. نقطة الدخول دائمًا هي <a href='#diagnostic'>التشخيص</a>، ويمكنك أن تبدأ بـ<a href='/clarity-scan/'>Clarity Scan</a>." data-en="Four tracks of marketing and business development consulting that gather what a decision needs — not a list of separate tools. The entry point is always the <a href='#diagnostic'>Diagnostic</a>, and you can start with the <a href='/clarity-scan/'>Clarity Scan</a>.">أربعة مسارات في استشارات التسويق وتطوير الأعمال تجمع ما يحتاجه القرار، لا قائمة أدوات منفصلة. نقطة الدخول دائمًا هي <a href="#diagnostic">التشخيص</a>، ويمكنك أن تبدأ بـ<a href="/clarity-scan/">Clarity Scan</a>.</p>
-
+    <p class="mark" data-ar="استكشف" data-en="Explore">استكشف</p>
+    <h2 data-ar="أين تريد أن تبدأ؟" data-en="Where do you want to start?">أين تريد أن تبدأ؟</h2>
     <div class="cats">
       <div class="cat">
-        <h3><span class="k" data-ar="STRATEGY" data-en="STRATEGY">STRATEGY</span><span data-ar="الاستراتيجية" data-en="Strategy">الاستراتيجية</span></h3>
-        <ul>
-          <li data-ar="استراتيجية التسويق" data-en="Marketing strategy">استراتيجية التسويق</li>
-          <li data-ar="تطوير الأعمال" data-en="Business development">تطوير الأعمال</li>
-          <li data-ar="التموضع" data-en="Positioning">التموضع</li>
-          <li data-ar="الدخول إلى السوق" data-en="Go-to-market">الدخول إلى السوق</li>
-          <li data-ar="استراتيجية النمو" data-en="Growth strategy">استراتيجية النمو</li>
-        </ul>
+        <h3><a href="/diagnostic/" data-ar="التشخيص" data-en="Diagnostic">التشخيص</a></h3>
+        <p data-ar="نقطة الدخول الوحيدة: بطاقة الوضوح، الأسباب الجذرية، وخارطة طريق 30/60/90 يومًا." data-en="The only entry point: a clarity scorecard, root causes, and a 30/60/90-day roadmap.">نقطة الدخول الوحيدة: بطاقة الوضوح، الأسباب الجذرية، وخارطة طريق 30/60/90 يومًا.</p>
       </div>
       <div class="cat">
-        <h3><span class="k" data-ar="COMMERCIAL" data-en="COMMERCIAL">COMMERCIAL</span><span data-ar="التجاري" data-en="Commercial">التجاري</span></h3>
-        <ul>
-          <li data-ar="تصميم العرض" data-en="Offer design">تصميم العرض</li>
-          <li data-ar="التسعير" data-en="Pricing">التسعير</li>
-          <li data-ar="رحلة العميل" data-en="Customer journey">رحلة العميل</li>
-          <li data-ar="نظام المبيعات" data-en="Sales system">نظام المبيعات</li>
-          <li data-ar="اكتساب العملاء" data-en="Customer acquisition">اكتساب العملاء</li>
-        </ul>
+        <h3><a href="/services/" data-ar="الخدمات" data-en="Services">الخدمات</a></h3>
+        <p data-ar="أربعة مسارات استشارية حول النتيجة، لا حول القناة — من الاستراتيجية إلى التحول." data-en="Four advisory tracks built around the outcome, not the channel — from strategy to transformation.">أربعة مسارات استشارية حول النتيجة، لا حول القناة — من الاستراتيجية إلى التحول.</p>
       </div>
       <div class="cat">
-        <h3><span class="k" data-ar="BRAND &amp; COMMUNICATION" data-en="BRAND &amp; COMMUNICATION">BRAND &amp; COMMUNICATION</span><span data-ar="العلامة والتواصل" data-en="Brand &amp; communication">العلامة والتواصل</span></h3>
-        <ul>
-          <li data-ar="استراتيجية العلامة التجارية" data-en="Brand strategy">استراتيجية العلامة التجارية</li>
-          <li data-ar="تموضع العلامة" data-en="Brand positioning">تموضع العلامة</li>
-          <li data-ar="الرسائل" data-en="Messaging">الرسائل</li>
-          <li data-ar="استراتيجية المحتوى" data-en="Content strategy">استراتيجية المحتوى</li>
-          <li data-ar="استراتيجية الحملات" data-en="Campaign strategy">استراتيجية الحملات</li>
-        </ul>
+        <h3><a href="/insights/" data-ar="رؤى ومقالات" data-en="Insights &amp; articles">رؤى ومقالات</a></h3>
+        <p data-ar="ملاحظات ميدانية وأرقام مسندة بمصادرها عن السوق السوداني والتسويق الاستراتيجي." data-en="Field notes and sourced figures on the Sudanese market and strategic marketing.">ملاحظات ميدانية وأرقام مسندة بمصادرها عن السوق السوداني والتسويق الاستراتيجي.</p>
       </div>
       <div class="cat">
-        <h3><span class="k" data-ar="TRANSFORMATION" data-en="TRANSFORMATION">TRANSFORMATION</span><span data-ar="التحول" data-en="Transformation">التحول</span></h3>
-        <ul>
-          <li data-ar="أنظمة التسويق" data-en="Marketing systems">أنظمة التسويق</li>
-          <li data-ar="تسويق مدعوم بالذكاء الاصطناعي" data-en="AI-enabled marketing">تسويق مدعوم بالذكاء الاصطناعي</li>
-          <li data-ar="الأتمتة" data-en="Automation">الأتمتة</li>
-          <li data-ar="التطوير المؤسسي" data-en="Organizational development">التطوير المؤسسي</li>
-          <li data-ar="قياس الأداء" data-en="Performance measurement">قياس الأداء</li>
-        </ul>
-      </div>
-    </div>
-
-    <div class="sub">
-      <p class="mark" data-ar="بعد التشخيص" data-en="After the diagnosis">بعد التشخيص</p>
-      <h3 data-ar="سلّم العمل" data-en="The engagement ladder">سلّم العمل</h3>
-      <p class="lede" data-ar="كل درجة اختيارية، ولا تُباع إلا إذا أثبت التشخيص الحاجة إليها." data-en="Every rung is optional, and is only sold when the diagnosis proves it is needed.">كل درجة اختيارية، ولا تُباع إلا إذا أثبت التشخيص الحاجة إليها.</p>
-    </div>
-    <div class="ladder">
-      <div class="rung"><i>1</i><div><h3 data-ar="التشخيص" data-en="Diagnostic">التشخيص</h3><p data-ar="نقطة الدخول الوحيدة. يحدد الاختناق والقرار." data-en="The only entry point. It identifies the bottleneck and the decision.">نقطة الدخول الوحيدة. يحدد الاختناق والقرار.</p></div></div>
-      <div class="rung"><i>2</i><div><h3 data-ar="سبرنت استراتيجي" data-en="Strategy Sprint">سبرنت استراتيجي</h3><p data-ar="بناء التموضع أو العرض أو بنية السوق خلال مدة قصيرة محددة." data-en="Building positioning, offer or market architecture within a short, fixed window.">بناء التموضع أو العرض أو بنية السوق خلال مدة قصيرة محددة.</p></div></div>
-      <div class="rung"><i>3</i><div><h3 data-ar="برنامج تنفيذ 90 يومًا" data-en="90-Day Implementation">برنامج تنفيذ 90 يومًا</h3><p data-ar="تنفيذ مُدار بمالك ومؤشر لكل مبادرة، مع مراجعة دورية." data-en="Managed execution with an owner and a KPI per initiative, reviewed on a fixed cadence.">تنفيذ مُدار بمالك ومؤشر لكل مبادرة، مع مراجعة دورية.</p></div></div>
-      <div class="rung"><i>4</i><div><h3 data-ar="استشارة مستمرة" data-en="Ongoing Advisory">استشارة مستمرة</h3><p data-ar="مرافقة شهرية لصاحب القرار: مراجعة، تحكيم أولويات، منع الانحراف." data-en="Monthly support for the decision-maker: review, prioritization, drift control.">مرافقة شهرية لصاحب القرار: مراجعة، تحكيم أولويات، منع الانحراف.</p></div></div>
-      <div class="rung"><i>5</i><div><h3 data-ar="بناء القدرات وأنظمة الذكاء الاصطناعي" data-en="Capability &amp; AI Systems">بناء القدرات وأنظمة الذكاء الاصطناعي</h3><p data-ar="تدريب الفريق، وأتمتة الاستقبال والتقارير والمتابعة داخل المؤسسة." data-en="Team training, plus automation of intake, reporting and follow-up inside the organization.">تدريب الفريق، وأتمتة الاستقبال والتقارير والمتابعة داخل المؤسسة.</p></div></div>
-    </div>
-    <p class="note" data-ar="التنفيذ الإبداعي والمحتوى والحملات مكوّنات داخل الخطة أو إضافات — لا تعريفًا للوكالة." data-en="Creative execution, content and campaigns are components inside a plan or add-ons — never the definition of the firm.">التنفيذ الإبداعي والمحتوى والحملات مكوّنات داخل الخطة أو إضافات — لا تعريفًا للوكالة.</p>
-  </div>
-</section>
-
-<!-- EVIDENCE -->
-<section id="evidence">
-  <div class="wrap">
-    <p class="mark" data-ar="الأدلة" data-en="Evidence">الأدلة</p>
-    <h2 data-ar="ما نقوله عن نتائجنا، وما لا نقوله" data-en="What we claim about our results — and what we don't">ما نقوله عن نتائجنا، وما لا نقوله</h2>
-    <p class="lede" data-ar="نفصل في كل مادة بين الحقيقة والتفسير والتوصية. ولا ننسب نموًا إلى عملنا حين تتداخل عوامل خارجية." data-en="In every document we separate fact from interpretation from recommendation. We do not attribute growth to our work where external factors are in play.">نفصل في كل مادة بين الحقيقة والتفسير والتوصية. ولا ننسب نموًا إلى عملنا حين تتداخل عوامل خارجية.</p>
-
-    <article class="study">
-      <span class="badge" data-ar="مساهمة استراتيجية — الأرقام بانتظار توثيق العميل" data-en="Strategic contribution — figures pending client verification">مساهمة استراتيجية — الأرقام بانتظار توثيق العميل</span>
-      <h3 data-ar="مؤسسة تعليمية — كسلا" data-en="An educational institution — Kassala">مؤسسة تعليمية — كسلا</h3>
-      <dl>
-        <div class="row"><dt data-ar="السياق" data-en="Context">السياق</dt><dd data-ar="مؤسسة تعليمية في كسلا. مجالات العمل: تطوير مؤسسي، أداء بشري، تسويق، التواصل مع أولياء الأمور، صورة المؤسسة في المجتمع، تفعيل الأنشطة اللاصفية، استراتيجية المحتوى، التسجيل، والأنظمة." data-en="An educational institution in Kassala. Areas of work: organizational development, human performance, marketing, parent engagement, the institution's standing in the community, extracurricular activation, content strategy, enrolment and systems.">مؤسسة تعليمية في كسلا. مجالات العمل: تطوير مؤسسي، أداء بشري، تسويق، التواصل مع أولياء الأمور، صورة المؤسسة في المجتمع، تفعيل الأنشطة اللاصفية، استراتيجية المحتوى، التسجيل، والأنظمة.</dd></div>
-        <div class="row"><dt data-ar="التدخل" data-en="Intervention">التدخل</dt><dd data-ar="إعادة تموضع المؤسسة أمام أولياء الأمور، وبناء نظام محتوى منخفض التكلفة، وهيكلة رحلة التسجيل من أول اهتمام حتى القيد." data-en="Repositioning the institution in the eyes of parents, building a low-cost content system, and restructuring the enrolment journey from first interest to registration.">إعادة تموضع المؤسسة أمام أولياء الأمور، وبناء نظام محتوى منخفض التكلفة، وهيكلة رحلة التسجيل من أول اهتمام حتى القيد.</dd></div>
-        <div class="row"><dt data-ar="الدليل" data-en="Evidence">الدليل</dt><dd class="pending" data-ar="لم يُنشر بعد." data-en="Not yet published.">لم يُنشر بعد.</dd></div>
-        <div class="row"><dt data-ar="النتيجة" data-en="Outcome">النتيجة</dt><dd data-ar="نمت أعداد الطلاب خلال الفترة؛ الأرقام مملوكة للعميل ولا تُنشر قبل إذنه، ولا تُنسب بالكامل إلى العمل التسويقي." data-en="Student numbers grew over the period; the figures belong to the client, are not published without consent, and are not attributed wholly to the marketing work.">نمت أعداد الطلاب خلال الفترة؛ الأرقام مملوكة للعميل ولا تُنشر قبل إذنه، ولا تُنسب بالكامل إلى العمل التسويقي.</dd></div>
-      </dl>
-    </article>
-
-    <article class="study">
-      <span class="badge" data-ar="تشخيص أولي" data-en="Preliminary diagnosis">تشخيص أولي</span>
-      <h3 data-ar="مهني بهوية مزدوجة — كسلا" data-en="A professional with a dual identity — Kassala">مهني بهوية مزدوجة — كسلا</h3>
-      <dl>
-        <div class="row"><dt data-ar="السياق" data-en="Context">السياق</dt><dd data-ar="مهني ينشط في مسارين مهنيين في كسلا. مجالات العمل: التموضع المهني، العلامة الشخصية، التسعير، تقسيم العملاء، المحتوى، الثقة، التمايز، والهوية المهنية." data-en="A professional active on two professional tracks in Kassala. Areas of work: professional positioning, personal brand, pricing, customer segmentation, content, trust, differentiation and professional identity.">مهني ينشط في مسارين مهنيين في كسلا. مجالات العمل: التموضع المهني، العلامة الشخصية، التسعير، تقسيم العملاء، المحتوى، الثقة، التمايز، والهوية المهنية.</dd></div>
-        <div class="row"><dt data-ar="التشخيص" data-en="Diagnosis">التشخيص</dt><dd data-ar="الاختناق لم يكن في المحتوى بل في التموضع: نشاطان مهنيان يتنافسان على هوية واحدة." data-en="The bottleneck was not content but positioning: two professional tracks competing for one identity.">الاختناق لم يكن في المحتوى بل في التموضع: نشاطان مهنيان يتنافسان على هوية واحدة.</dd></div>
-        <div class="row"><dt data-ar="القرار" data-en="Decision">القرار</dt><dd data-ar="الخطة: عشر مقابلات شراء، واختبار عرضين بسعرين، ومشروعان تجريبيان، ثم إعادة التسعير بناءً على ما ثبت." data-en="The plan: ten buyer interviews, two offers tested at two prices, two pilot projects, then repricing based on what held up.">الخطة: عشر مقابلات شراء، واختبار عرضين بسعرين، ومشروعان تجريبيان، ثم إعادة التسعير بناءً على ما ثبت.</dd></div>
-        <div class="row"><dt data-ar="الدليل" data-en="Evidence">الدليل</dt><dd class="pending" data-ar="لم يُنشر بعد." data-en="Not yet published.">لم يُنشر بعد.</dd></div>
-        <div class="row"><dt data-ar="النتيجة" data-en="Outcome">النتيجة</dt><dd class="pending" data-ar="لا نتائج منشورة بعد." data-en="No published results yet.">لا نتائج منشورة بعد.</dd></div>
-      </dl>
-    </article>
-  </div>
-</section>
-
-<!-- ABOUT -->
-<section id="about">
-  <div class="wrap">
-    <p class="mark" data-ar="من نحن" data-en="About">من نحن</p>
-    <h2 data-ar="عن وكالة المبارك للتسويق وتطوير الأعمال" data-en="About El Mubarak Agency: marketing and business development">عن وكالة المبارك للتسويق وتطوير الأعمال</h2>
-    <div class="cols">
-      <div>
-        <p data-ar="المبارك (El Mubarak Agency) وكالة استشارات تسويق وتطوير أعمال تعمل من السودان على تسويق مرتبط بالإيراد وقرارات قابلة للتنفيذ. نقف في المساحة بين وكالات التنفيذ الرقمي وبيوت الاستشارة الكبرى: عمق تحليلي حقيقي، وسياق محلي، وحجم مشروع يناسب المنشأة المتوسطة." data-en="El Mubarak Agency (المبارك) is a marketing and business development consultancy working from Sudan on revenue-linked marketing and decisions that can actually be executed. We sit between digital execution agencies and large consulting houses: real analytical depth, local context, and a project size an SME can carry.">المبارك (El Mubarak Agency) وكالة استشارات تسويق وتطوير أعمال تعمل من السودان على تسويق مرتبط بالإيراد وقرارات قابلة للتنفيذ. نقف في المساحة بين وكالات التنفيذ الرقمي وبيوت الاستشارة الكبرى: عمق تحليلي حقيقي، وسياق محلي، وحجم مشروع يناسب المنشأة المتوسطة.</p>
-        <p data-ar="يقود عبدالعظيم المبارك (Azama Almubarak) وكالة المبارك (El Mubarak Agency) في تقديم الاستشارات التسويقية وتطوير الأعمال وبناء العلامة التجارية والأنظمة التسويقية للشركات والمؤسسات." data-en="Azama Almubarak (عبدالعظيم المبارك) leads El Mubarak Agency (المبارك), delivering marketing consulting, business development, brand building and marketing systems for companies and organizations.">يقود عبدالعظيم المبارك (Azama Almubarak) وكالة المبارك (El Mubarak Agency) في تقديم الاستشارات التسويقية وتطوير الأعمال وبناء العلامة التجارية والأنظمة التسويقية للشركات والمؤسسات.</p>
-        <p data-ar="الوكالة هي المنهج والأدوات والفريق. المؤسس هو الصوت والخبرة والعلاقة. لا نبني قيمة تعتمد على شخص واحد." data-en="The firm is the method, the tools and the team. The founder is the voice, the expertise and the relationship. We do not build value that depends on one person.">الوكالة هي المنهج والأدوات والفريق. المؤسس هو الصوت والخبرة والعلاقة. لا نبني قيمة تعتمد على شخص واحد.</p>
-        <blockquote class="founder-quote" data-ar="لا أبدأ بسؤال: ماذا تريد أن تنشر؟ أبدأ بسؤال: ما القرار الذي يحتاجه عملك؟" data-en="I don’t start by asking what you want to publish. I start by asking what decision your business needs.">لا أبدأ بسؤال: ماذا تريد أن تنشر؟ أبدأ بسؤال: ما القرار الذي يحتاجه عملك؟</blockquote>
-      </div>
-      <div>
-        <h2 class="founder-h" data-ar="عن المؤسس | عبدالعظيم المبارك <span class='alt-name' dir='ltr'>Azama Almubarak</span>" data-en="About the founder | Azama Almubarak <span class='alt-name' dir='rtl'>عبدالعظيم المبارك</span>">عن المؤسس | عبدالعظيم المبارك <span class="alt-name" dir="ltr">Azama Almubarak</span></h2>
-        <p class="founder-role" data-ar="مؤسس المبارك (El Mubarak Agency) — مستشار استراتيجي في التسويق وتطوير الأعمال" data-en="Founder of El Mubarak Agency — Strategic Marketing &amp; Business Development Consultant">مؤسس المبارك (El Mubarak Agency) — مستشار استراتيجي في التسويق وتطوير الأعمال</p>
-        <ul class="tags" style="margin-top:10px" data-aria-label-ar="مجالات التركيز" data-aria-label-en="Areas of focus" aria-label="مجالات التركيز">
-          <li data-ar="التسويق الاستراتيجي" data-en="Strategic marketing">التسويق الاستراتيجي</li>
-          <li data-ar="تطوير الأعمال" data-en="Business development">تطوير الأعمال</li>
-          <li data-ar="تموضع العلامة" data-en="Brand positioning">تموضع العلامة</li>
-          <li data-ar="استراتيجية النمو" data-en="Growth strategy">استراتيجية النمو</li>
-          <li data-ar="أنظمة تسويق مدعومة بالذكاء الاصطناعي" data-en="AI-enabled marketing systems">أنظمة تسويق مدعومة بالذكاء الاصطناعي</li>
-          <li data-ar="التطوير المؤسسي" data-en="Organizational development">التطوير المؤسسي</li>
-        </ul>
-        <ul class="list" style="margin-top:18px">
-          <li data-ar="دكتوراة إدارة الأعمال المهنية (DPA) — قيد الدراسة" data-en="Doctor of Professional Business Administration (DPA) — in progress">دكتوراة إدارة الأعمال المهنية (DPA) — قيد الدراسة</li>
-          <li data-ar="ماجستير إدارة أعمال — ريادة الأعمال" data-en="MBA — Entrepreneurship">ماجستير إدارة أعمال — ريادة الأعمال</li>
-          <li data-ar="ماجستير علوم — الأحياء الدقيقة، وخلفية مهنية في المختبرات الطبية" data-en="MSc — Microbiology, with a professional background in medical laboratories">ماجستير علوم — الأحياء الدقيقة، وخلفية مهنية في المختبرات الطبية</li>
-          <li data-ar="شهادة BMS — المستوى المهني في استراتيجيات التسويق وتطوير الأعمال" data-en="BMS Professional Level — Marketing &amp; Business Development Strategies">شهادة BMS — المستوى المهني في استراتيجيات التسويق وتطوير الأعمال</li>
-          <li data-ar="عمل تطويري وتسويقي في التعليم والرعاية الصحية والأغذية والمنظمات غير الربحية" data-en="Development and marketing work across education, healthcare, F&amp;B and nonprofits">عمل تطويري وتسويقي في التعليم والرعاية الصحية والأغذية والمنظمات غير الربحية</li>
-          <li data-ar="مؤسس مركز رفقة للقراءة والتدريب" data-en="Founder of the Rafaqa Reading &amp; Training Center">مؤسس مركز رفقة للقراءة والتدريب</li>
-        </ul>
+        <h3><a href="/about/" data-ar="من نحن" data-en="About us">من نحن</a></h3>
+        <p data-ar="عبدالعظيم المبارك ووكالة المبارك: المنهج والخبرة وراء كل تشخيص." data-en="Azama Almubarak and El Mubarak Agency: the method and experience behind every diagnosis.">عبدالعظيم المبارك ووكالة المبارك: المنهج والخبرة وراء كل تشخيص.</p>
       </div>
     </div>
   </div>
 </section>
 
-<!-- INSIGHTS -->
-<section id="insights">
-  <div class="wrap">
-    <p class="mark" data-ar="رؤى" data-en="Insights">رؤى</p>
-    <h2 data-ar="ملاحظات من الميدان" data-en="Notes from the field">ملاحظات من الميدان</h2>
-    <p class="lede" data-ar="أنماط تتكرر في المؤسسات التي نعمل معها. ليست نصائح عامة — بل ما نراه فعلًا في التشخيص." data-en="Patterns that recur in the organizations we work with. Not general advice — what we actually see in diagnosis.">أنماط تتكرر في المؤسسات التي نعمل معها. ليست نصائح عامة — بل ما نراه فعلًا في التشخيص.</p>
-
-    <article class="note-item">
-      <h3 data-ar="المتوسط يُخفي الاختناق" data-en="The average hides the bottleneck">المتوسط يُخفي الاختناق</h3>
-      <p data-ar="مؤسسة تسجل 4 من 5 في تسع عدسات و2 في عدستين ستقرأ متوسطها 3.6 وتطمئن. لكنها لا تتحرك بسرعة متوسطها بل بسرعة أضعف عدساتها. الشركات نادرًا ما تتعثر لأنها سيئة في كل شيء — بل لأنها ممتازة في تسعة أشياء وعاجزة في واحد يقع في مسار الإيراد مباشرة." data-en="A business scoring 4 of 5 on nine lenses and 2 on two will read its average as 3.6 and relax. But it moves at the speed of its weakest lens, not its mean. Companies rarely stall because they are bad at everything — they stall because they are excellent at nine things and unable at one that sits directly in the revenue path.">مؤسسة تسجل 4 من 5 في تسع عدسات و2 في عدستين ستقرأ متوسطها 3.6 وتطمئن. لكنها لا تتحرك بسرعة متوسطها بل بسرعة أضعف عدساتها. الشركات نادرًا ما تتعثر لأنها سيئة في كل شيء — بل لأنها ممتازة في تسعة أشياء وعاجزة في واحد يقع في مسار الإيراد مباشرة.</p>
-    </article>
-
-    <article class="note-item">
-      <h3 data-ar="الخصم لا يشتري ثقة" data-en="Discounts do not buy trust">الخصم لا يشتري ثقة</h3>
-      <p data-ar="حين يتردد العميل، يكون التفسير الجاهز دائمًا: السعر مرتفع. لكن أغلب التردد الذي نقابله في المقابلات ليس سعريًا بل مخاطرة مُتصوَّرة — لا يعرف ما سيحصل عليه بالضبط، ولا كيف يحكم على النتيجة. الخصم في هذه الحالة يخفض هامشك ويؤكد شك العميل في آنٍ واحد: لو كانت القيمة حقيقية، لماذا تُخفَّض بهذه السهولة؟" data-en="When a customer hesitates, the ready explanation is always price. But most hesitation we encounter in interviews is not about price — it is perceived risk: they do not know exactly what they will get, or how to judge the result. A discount here cuts your margin and confirms their doubt at once: if the value were real, why does it drop so easily?">حين يتردد العميل، يكون التفسير الجاهز دائمًا: السعر مرتفع. لكن أغلب التردد الذي نقابله في المقابلات ليس سعريًا بل مخاطرة مُتصوَّرة — لا يعرف ما سيحصل عليه بالضبط، ولا كيف يحكم على النتيجة. الخصم في هذه الحالة يخفض هامشك ويؤكد شك العميل في آنٍ واحد: لو كانت القيمة حقيقية، لماذا تُخفَّض بهذه السهولة؟</p>
-    </article>
-
-    <article class="note-item">
-      <h3 data-ar="النشاط ليس نتيجة" data-en="Activity is not outcome">النشاط ليس نتيجة</h3>
-      <p data-ar="عدد المنشورات ومعدل التفاعل ونمو المتابعين مؤشرات نشاط، لا مؤشرات أعمال. يمكن أن ترتفع الثلاثة بينما الإيراد ثابت — وهذا يحدث كثيرًا. المؤشر يستحق مكانه في التقرير فقط إذا كان له تعريف ومصدر ومالك وقرار مرتبط به: ماذا سنفعل تحديدًا إن انحرف؟ ما لا يقود إلى قرار هو زينة في تقرير." data-en="Post volume, engagement rate and follower growth are activity metrics, not business metrics. All three can rise while revenue stays flat — and often do. A metric earns its place in a report only if it has a definition, a source, an owner and an attached decision: what exactly will we do if it moves? Anything that leads to no decision is decoration.">عدد المنشورات ومعدل التفاعل ونمو المتابعين مؤشرات نشاط، لا مؤشرات أعمال. يمكن أن ترتفع الثلاثة بينما الإيراد ثابت — وهذا يحدث كثيرًا. المؤشر يستحق مكانه في التقرير فقط إذا كان له تعريف ومصدر ومالك وقرار مرتبط به: ماذا سنفعل تحديدًا إن انحرف؟ ما لا يقود إلى قرار هو زينة في تقرير.</p>
-    </article>
-
-    <article class="note-item">
-      <h3 data-ar="قبل التوسع: هل ما لديك قابل للتكرار؟" data-en="Before scaling: is what you have repeatable?">قبل التوسع: هل ما لديك قابل للتكرار؟</h3>
-      <p data-ar="الفرع الثاني لا يضاعف النجاح، بل يضاعف ما هو قائم — بما فيه الخلل. الاختبار العملي قبل أي توسع: هل بِيع هذا العرض مرتين على الأقل بنفس الطريقة؟ هل تعرف تكلفة تقديمه فعليًا؟ هل يستطيع شخص غيرك تنفيذه دون أن تتدخل؟ إن كانت إجابة واحدة لا، فأنت تنسخ اعتمادًا على شخص، لا نظامًا." data-en="A second branch does not double success — it doubles what exists, including the flaws. The practical test before scaling: has this offer been sold at least twice the same way? Do you know what it actually costs to deliver? Can someone other than you deliver it without your intervention? If any answer is no, you are replicating a dependency on a person, not a system.">الفرع الثاني لا يضاعف النجاح، بل يضاعف ما هو قائم — بما فيه الخلل. الاختبار العملي قبل أي توسع: هل بِيع هذا العرض مرتين على الأقل بنفس الطريقة؟ هل تعرف تكلفة تقديمه فعليًا؟ هل يستطيع شخص غيرك تنفيذه دون أن تتدخل؟ إن كانت إجابة واحدة لا، فأنت تنسخ اعتمادًا على شخص، لا نظامًا.</p>
-    </article>
-  </div>
-</section>
-
-<!-- ARTICLES -->
-<section id="articles">
-  <div class="wrap">
-    <p class="mark" data-ar="مقالات" data-en="Articles">مقالات</p>
-    <h2 data-ar="أرقام ودراسات، بمصادرها" data-en="Numbers and studies, with their sources">أرقام ودراسات، بمصادرها</h2>
-    <p class="lede" data-ar="نفس قاعدتنا في التشخيص: لا رقم بلا مصدر. هذه القائمة تُحدَّث دوريًا كلما ظهر بحث أو تحوّل بالسوق يستحق التوقف عنده. آخر تحديث: سبتمبر 2026." data-en="Same rule as our diagnostics: no number without a source. This list is refreshed periodically whenever research or a market shift is worth stopping for. Last updated: September 2026.">نفس قاعدتنا في التشخيص: لا رقم بلا مصدر. هذه القائمة تُحدَّث دوريًا كلما ظهر بحث أو تحوّل بالسوق يستحق التوقف عنده. آخر تحديث: سبتمبر 2026.</p>
-
-    <div class="case">
-      <span class="badge" data-ar="السوق السوداني" data-en="Sudanese market">السوق السوداني</span>
-      <h3 data-ar="الفقر يعيد تشكيل القدرة الشرائية في السودان" data-en="Poverty is reshaping purchasing power in Sudan">الفقر يعيد تشكيل القدرة الشرائية في السودان</h3>
-      <p data-ar="نسبة الفقر في السودان قفزت إلى 71% في 2025، مقارنة بـ36% قبل الحرب — أي نحو 23 مليون شخص تحت خط الفقر. افتراضات القدرة الشرائية والتسعير التي كانت صحيحة قبل 2023 لم تعد كذلك؛ أي استراتيجية تسويق للسوق السوداني اليوم يجب أن تُبنى على واقع الدخل الحالي، لا على بيانات ما قبل الحرب." data-en="Sudan's poverty rate jumped to 71% in 2025, up from 36% before the war — around 23 million people now below the poverty line. Purchasing-power and pricing assumptions that held before 2023 no longer do; any marketing strategy for the Sudanese market today has to be built on the current income reality, not pre-war data.">نسبة الفقر في السودان قفزت إلى 71% في 2025، مقارنة بـ36% قبل الحرب — أي نحو 23 مليون شخص تحت خط الفقر. افتراضات القدرة الشرائية والتسعير التي كانت صحيحة قبل 2023 لم تعد كذلك؛ أي استراتيجية تسويق للسوق السوداني اليوم يجب أن تُبنى على واقع الدخل الحالي، لا على بيانات ما قبل الحرب.</p>
-      <p class="source" data-ar="المصدر: بنك التنمية الأفريقي — آفاق السودان الاقتصادية، يونيو 2026" data-en="Source: African Development Bank — Sudan Economic Outlook, June 2026">المصدر: بنك التنمية الأفريقي — آفاق السودان الاقتصادية، يونيو 2026</p>
-    </div>
-
-    <div class="case">
-      <span class="badge" data-ar="السوق السوداني" data-en="Sudanese market">السوق السوداني</span>
-      <h3 data-ar="السودان الرقمي بالأرقام: سوق دون تشبّع" data-en="Digital Sudan by the numbers: an unsaturated market">السودان الرقمي بالأرقام: سوق دون تشبّع</h3>
-      <p data-ar="14.9 مليون مستخدم إنترنت في السودان بنهاية 2025 (نسبة انتشار 28.7%)، و6.06 مليون هوية على منصات التواصل (11.6% من السكان). أغلب السوق السوداني لم يُختبر رقميًا بعد — الفرصة ليست في التنافس على من هو حاضر، بل في الوصول لمن لم يُستهدف أصلًا." data-en="14.9 million internet users in Sudan by end of 2025 (28.7% penetration), and 6.06 million social media identities (11.6% of the population). Most of the Sudanese market hasn't been tested digitally yet — the opportunity isn't outcompeting who's already there, it's reaching who hasn't been targeted at all.">14.9 مليون مستخدم إنترنت في السودان بنهاية 2025 (نسبة انتشار 28.7%)، و6.06 مليون هوية على منصات التواصل (11.6% من السكان). أغلب السوق السوداني لم يُختبر رقميًا بعد — الفرصة ليست في التنافس على من هو حاضر، بل في الوصول لمن لم يُستهدف أصلًا.</p>
-      <p class="source" data-ar="المصدر: DataReportal — تقرير السودان الرقمي 2026" data-en="Source: DataReportal — Digital 2026: Sudan">المصدر: DataReportal — تقرير السودان الرقمي 2026</p>
-    </div>
-
-    <div class="case">
-      <span class="badge" data-ar="السوق السوداني" data-en="Sudanese market">السوق السوداني</span>
-      <h3 data-ar="لماذا تفشل نماذج التسويق العالمية عند نسخها في السودان" data-en="Why global marketing playbooks fail when copied into Sudan">لماذا تفشل نماذج التسويق العالمية عند نسخها في السودان</h3>
-      <p data-ar="معظم أطر التسويق الجاهزة تفترض سوقًا ناضجًا: بيانات موثوقة، سلوك شراء مفهوم، وقنوات دفع مستقرة. في السودان، الثقة تُبنى بالعلاقة قبل الإعلان، والدفع والتوصيل يفرضان قيودًا لا يراعيها القالب الجاهز. النموذج الناجح هنا لا يُستورد — يُشتق من التشخيص المحلي." data-en="Most off-the-shelf frameworks assume a mature market: reliable data, predictable buying behavior, stable payment rails. In Sudan, trust is built through relationship before advertising, and payment and delivery constraints the template never accounts for. The model that works here isn't imported — it's derived from local diagnosis.">معظم أطر التسويق الجاهزة تفترض سوقًا ناضجًا: بيانات موثوقة، سلوك شراء مفهوم، وقنوات دفع مستقرة. في السودان، الثقة تُبنى بالعلاقة قبل الإعلان، والدفع والتوصيل يفرضان قيودًا لا يراعيها القالب الجاهز. النموذج الناجح هنا لا يُستورد — يُشتق من التشخيص المحلي.</p>
-      <p class="source" data-ar="تحليل ELMUBARAK" data-en="ELMUBARAK analysis">تحليل ELMUBARAK</p>
-    </div>
-
-    <div class="case">
-      <span class="badge" data-ar="عام" data-en="General">عام</span>
-      <h3 data-ar="الذكاء الاصطناعي منتشر، لكن الفعالية نادرة" data-en="AI is everywhere. Effectiveness is not.">الذكاء الاصطناعي منتشر، لكن الفعالية نادرة</h3>
-      <p data-ar="96% من مسوّقي B2B يستخدمون أدوات الذكاء الاصطناعي في 2026، لكن 12% فقط يصفون أداءهم بأنه عالي الفعالية. الفارق بين الفريقين ليس الأداة — بل جودة المحتوى ومهارة الفريق، حسب 65% من الفرق الفعّالة." data-en="96% of B2B marketers use AI tools in 2026, yet only 12% call their results highly effective. The gap isn't the tool — 65% of high-performing teams credit content quality and team skill instead.">96% من مسوّقي B2B يستخدمون أدوات الذكاء الاصطناعي في 2026، لكن 12% فقط يصفون أداءهم بأنه عالي الفعالية. الفارق بين الفريقين ليس الأداة — بل جودة المحتوى ومهارة الفريق، حسب 65% من الفرق الفعّالة.</p>
-      <p class="source" data-ar="المصدر: Demand Gen Report — تقرير اتجاهات B2B 2026" data-en="Source: Demand Gen Report — 2026 B2B Trends Research">المصدر: Demand Gen Report — تقرير اتجاهات B2B 2026</p>
-    </div>
-
-    <div class="case">
-      <span class="badge" data-ar="عام" data-en="General">عام</span>
-      <h3 data-ar="المحتوى يبني الوعي، لكن معظمه غير متّسق" data-en="Content builds awareness. Most of it isn't consistent.">المحتوى يبني الوعي، لكن معظمه غير متّسق</h3>
-      <p data-ar="81% من المسوّقين يقولون إن المحتوى رفع وعي علامتهم التجارية، لكن 45% من الفرق نفسها تفشل في تقديم تجربة متّسقة عبر القنوات، و51% يصفون حملاتهم بأنها عامة بلا تمييز. الوعي وحده لا يكفي — الاتساق هو ما يحوّله لثقة." data-en="81% of marketers say content built brand awareness — but 45% of the same teams fail to deliver a consistent experience across channels, and 51% call their campaigns generic. Awareness alone doesn't convert; consistency does.">81% من المسوّقين يقولون إن المحتوى رفع وعي علامتهم التجارية، لكن 45% من الفرق نفسها تفشل في تقديم تجربة متّسقة عبر القنوات، و51% يصفون حملاتهم بأنها عامة بلا تمييز. الوعي وحده لا يكفي — الاتساق هو ما يحوّله لثقة.</p>
-      <p class="source" data-ar="المصدر: DesignRush وDemandSage — إحصاءات تسويق المحتوى 2026" data-en="Source: DesignRush &amp; DemandSage — 2026 Content Marketing Statistics">المصدر: DesignRush وDemandSage — إحصاءات تسويق المحتوى 2026</p>
-    </div>
-  </div>
-</section>
-
-<!-- FAQ -->
-<section id="faq">
-  <div class="wrap">
-    <p class="mark" data-ar="أسئلة متكررة" data-en="Frequently asked">أسئلة متكررة</p>
-    <h2 data-ar="أسئلة قبل أن تحجز" data-en="Questions before you book">أسئلة قبل أن تحجز</h2>
-    <div class="faq">
-      <details>
-        <summary data-ar="كم تكلفة التشخيص؟" data-en="How much does the Diagnostic cost?">كم تكلفة التشخيص؟</summary>
-        <p data-ar="التسعير يتبع التعقيد وعدد أصحاب القرار وعمق البحث وحساسية القرار — لا عدد الساعات. نحدده بعد مكالمة الاستكشاف العشرين دقيقة، ولا نرسل عرض سعر قبلها." data-en="Pricing follows complexity, stakeholder count, research depth and decision sensitivity — not hours. It is set after the twenty-minute discovery call; we do not quote before it.">التسعير يتبع التعقيد وعدد أصحاب القرار وعمق البحث وحساسية القرار — لا عدد الساعات. نحدده بعد مكالمة الاستكشاف العشرين دقيقة، ولا نرسل عرض سعر قبلها.</p>
-      </details>
-      <details>
-        <summary data-ar="هل نشاطي صغير جدًا لهذا؟" data-en="Is my business too small for this?">هل نشاطي صغير جدًا لهذا؟</summary>
-        <p data-ar="لا. مستوى Focus مصمم للمهني المستقل أو النشاط الصغير بصاحب قرار واحد. الفارق ليس في القبول، بل في نطاق التشخيص وعمقه." data-en="No. The Focus tier is built for an independent professional or a small business with one decision-maker. What changes is the scope and depth of the diagnosis, not whether we take you on.">لا. مستوى Focus مصمم للمهني المستقل أو النشاط الصغير بصاحب قرار واحد. الفارق ليس في القبول، بل في نطاق التشخيص وعمقه.</p>
-      </details>
-      <details>
-        <summary data-ar="ماذا لو تبيّن أن التشخيص غير مناسب لحالتي؟" data-en="What if the Diagnostic turns out not to be a fit?">ماذا لو تبيّن أن التشخيص غير مناسب لحالتي؟</summary>
-        <p data-ar="نقولها في مكالمة الاستكشاف مباشرة، دون التفاف. لا نقبل مشروعًا يتعذّر تعريف نجاحه أو تحديد مالكه — بيع خدمة لا تناسبك يكلفك أكثر مما يفيدك." data-en="We say so directly in the discovery call. We decline any project whose success or owner cannot be defined — selling you something that does not fit costs you more than it helps.">نقولها في مكالمة الاستكشاف مباشرة، دون التفاف. لا نقبل مشروعًا يتعذّر تعريف نجاحه أو تحديد مالكه — بيع خدمة لا تناسبك يكلفك أكثر مما يفيدك.</p>
-      </details>
-      <details>
-        <summary data-ar="ماذا تقدّم المبارك للشركات في السودان؟" data-en="What does El Mubarak Agency offer businesses in Sudan?">ماذا تقدّم المبارك للشركات في السودان؟</summary>
-        <p data-ar="استشارات التسويق وتطوير الأعمال والاستراتيجية للشركات والمؤسسات في السودان. نبدأ بتشخيص ما يُعطّل النمو فعلًا — العرض أو التموضع أو التسعير أو العميل أو المبيعات أو التجربة أو الأنظمة — ثم نبني قرارًا واستراتيجية قابلة للتنفيذ والقياس. وكل رقم نذكره عن السوق السوداني نُرفقه بمصدره." data-en="Marketing, business development and strategy consulting for companies and organizations in Sudan. We start by diagnosing what is actually holding growth back — the offer, positioning, pricing, customer, sales, experience or systems — and then build a decision and strategy that can be executed and measured. Every figure we cite about the Sudanese market comes with its source.">استشارات التسويق وتطوير الأعمال والاستراتيجية للشركات والمؤسسات في السودان. نبدأ بتشخيص ما يُعطّل النمو فعلًا — العرض أو التموضع أو التسعير أو العميل أو المبيعات أو التجربة أو الأنظمة — ثم نبني قرارًا واستراتيجية قابلة للتنفيذ والقياس. وكل رقم نذكره عن السوق السوداني نُرفقه بمصدره.</p>
-      </details>
-      <details>
-        <summary data-ar="هل تعملون مع مؤسسات خارج السودان؟" data-en="Do you work with organizations outside Sudan?">هل تعملون مع مؤسسات خارج السودان؟</summary>
-        <p data-ar="نعمل من السودان، ونُنفّذ التشخيص عن بُعد لأي مؤسسة تتوفر لديها إمكانية إجراء المقابلات ومشاركة البيانات اللازمة، داخل السودان أو خارجه." data-en="We work from Sudan and run the Diagnostic remotely for any organization that can provide interview access and the data we need, inside Sudan or outside it.">نعمل من السودان، ونُنفّذ التشخيص عن بُعد لأي مؤسسة تتوفر لديها إمكانية إجراء المقابلات ومشاركة البيانات اللازمة، داخل السودان أو خارجه.</p>
-      </details>
-      <details>
-        <summary data-ar="هل بياناتنا ومعلوماتنا تبقى سرية؟" data-en="Does our information stay confidential?">هل بياناتنا ومعلوماتنا تبقى سرية؟</summary>
-        <p data-ar="نعم. اتفاق سرية قياسي قبل بدء أي عمل، ولا نُنشر رقمًا أو نتيجة تخص عميلًا دون إذنه الصريح — كما ترى في قسم الأدلة أعلاه." data-en="Yes. A standard confidentiality agreement precedes any work, and we do not publish a client's figures or results without explicit consent — as shown in the Evidence section above.">نعم. اتفاق سرية قياسي قبل بدء أي عمل، ولا نُنشر رقمًا أو نتيجة تخص عميلًا دون إذنه الصريح — كما ترى في قسم الأدلة أعلاه.</p>
-      </details>
-      <details>
-        <summary data-ar="ماذا يحدث بعد التشخيص؟" data-en="What happens after the Diagnostic?">ماذا يحدث بعد التشخيص؟</summary>
-        <p data-ar="أنت تقرر. التشخيص هو نقطة الدخول الوحيدة ولا يُلزمك بشيء بعده. إذا أثبت الحاجة لخطوة تالية من سلّم العمل، نعرضها؛ وإن لم يثبت، تنتهي العلاقة عند التقرير والجلسة التنفيذية." data-en="You decide. The Diagnostic is the only entry point and commits you to nothing beyond it. If it proves the case for a next step on the engagement ladder, we propose it; if not, the relationship ends at the report and the executive session.">أنت تقرر. التشخيص هو نقطة الدخول الوحيدة ولا يُلزمك بشيء بعده. إذا أثبت الحاجة لخطوة تالية من سلّم العمل، نعرضها؛ وإن لم يثبت، تنتهي العلاقة عند التقرير والجلسة التنفيذية.</p>
-      </details>
-    </div>
-  </div>
-</section>
-
-
-<!-- CONTACT -->
-<section id="contact">
+<section id="cta-banner">
   <div class="wrap">
     <div class="final">
       <h2 class="display-sm" data-ar="الآن أنت تعرف أين تنظر." data-en="Now you know where to look.">الآن أنت تعرف أين تنظر.</h2>
       <p class="lede" data-ar="السؤال التالي: ماذا ستفعل بهذه المعلومة؟" data-en="The next question: what will you do with it?">السؤال التالي: ماذا ستفعل بهذه المعلومة؟</p>
       <div class="btns">
-        <a class="btn btn-primary" href="#talk" data-cta="startFullDiagnostic">ابدأ التشخيص المتكامل</a>
+        <a class="btn btn-primary" href="/contact/" data-ar="ابدأ التشخيص المتكامل" data-en="Start the full Diagnostic">ابدأ التشخيص المتكامل</a>
         <a class="btn btn-ghost" href="https://wa.me/249999920087" data-contact="whatsapp" data-wa-msg="general" target="_blank" rel="noopener" data-cta="talk">تواصل مع عبدالعظيم المبارك</a>
-      </div>
-    </div>
-
-    <div class="cols" id="talk">
-      <div>
-        <h2 data-ar="تواصل معنا: لنتحدث عن المشكلة قبل الحل." data-en="Contact us: let’s talk about the problem before the solution.">تواصل معنا: لنتحدث عن المشكلة قبل الحل.</h2>
-        <p class="lede" data-ar="مكالمة قصيرة نحدد فيها ما إذا كان التشخيص مناسبًا لحالتك أصلًا. إن لم يكن، سنقول ذلك — ولا نقبل مشروعًا يتعذّر تعريف نجاحه أو تحديد مالكه." data-en="A short call to determine whether the Diagnostic is even the right fit. If it isn't, we will say so — and we decline any project whose success or owner cannot be defined.">مكالمة قصيرة نحدد فيها ما إذا كان التشخيص مناسبًا لحالتك أصلًا. إن لم يكن، سنقول ذلك — ولا نقبل مشروعًا يتعذّر تعريف نجاحه أو تحديد مالكه.</p>
-        <form id="leadForm" name="diagnostic-request" method="POST" data-netlify="true" netlify-honeypot="company-website">
-          <input type="hidden" name="form-name" value="diagnostic-request">
-          <input type="hidden" name="weakest-lens" id="weakestLens" value="">
-          <p class="hp"><label>Do not fill<input name="company-website" tabindex="-1" autocomplete="off"></label></p>
-
-          <label class="fld"><span data-ar="الاسم" data-en="Name">الاسم</span><input type="text" name="name" required autocomplete="name"></label>
-          <label class="fld"><span data-ar="النشاط أو المؤسسة" data-en="Business or organization">النشاط أو المؤسسة</span><input type="text" name="business" required autocomplete="organization"></label>
-          <label class="fld"><span data-ar="دورك" data-en="Your role">دورك</span><input type="text" name="role" autocomplete="organization-title"></label>
-          <label class="fld"><span data-ar="وسيلة التواصل المفضلة" data-en="Preferred contact method">وسيلة التواصل المفضلة</span>
-            <select name="contact_method">
-              <option value="whatsapp" data-ar="واتساب" data-en="WhatsApp">واتساب</option>
-              <option value="email" data-ar="البريد الإلكتروني" data-en="Email">البريد الإلكتروني</option>
-              <option value="call" data-ar="مكالمة هاتفية" data-en="Phone call">مكالمة هاتفية</option>
-            </select>
-          </label>
-          <label class="fld"><span data-ar="رقم التواصل أو البريد" data-en="Phone number or email">رقم التواصل أو البريد</span><input type="text" name="contact" required></label>
-          <label class="fld"><span data-ar="ما الذي تحاول حله؟" data-en="What are you trying to solve?">ما الذي تحاول حله؟</span><textarea name="problem" rows="3" required></textarea></label>
-          <label class="fld"><span data-ar="الوضع الحالي <span class='opt-hint'>(اختياري)</span>" data-en="Current situation <span class='opt-hint'>(optional)</span>">الوضع الحالي <span class="opt-hint">(اختياري)</span></span><textarea name="situation" rows="3"></textarea></label>
-
-          <button class="btn btn-primary" type="submit" style="width:100%;margin-top:6px" data-ar="أرسل الطلب" data-en="Send request">أرسل الطلب</button>
-          <p class="formmsg" id="formMsg" role="status" hidden></p>
-        </form>
-      </div>
-      <div>
-        <h3 data-ar="أو تواصل مباشرة" data-en="Or reach out directly">أو تواصل مباشرة</h3>
-        <div class="contact">
-          <a class="chan" href="https://wa.me/249999920087" data-contact="whatsapp" data-wa-msg="general" id="ch-wa"><span data-ar="واتساب" data-en="WhatsApp">واتساب</span><span data-contact="whatsapp-text">+249 99 992 0087</span></a>
-          <a class="chan" href="mailto:azamaalmubarak@gmail.com" data-contact="email" id="ch-mail"><span data-ar="البريد الإلكتروني" data-en="Email">البريد الإلكتروني</span><span data-contact="email-text">azamaalmubarak@gmail.com</span></a>
-        </div>
       </div>
     </div>
   </div>
@@ -751,19 +354,19 @@
 <footer>
   <div class="wrap foot">
     <ul class="foot-nav" aria-label="خريطة الموقع" data-aria-label-ar="خريطة الموقع" data-aria-label-en="Site map">
-      <li><a href="#why" data-ar="المشكلة" data-en="The problem">المشكلة</a></li>
-      <li><a href="#clarity">Clarity Scan</a></li>
-      <li><a href="#method" data-ar="المنهجية" data-en="Method">المنهجية</a></li>
-      <li><a href="#scorecard" data-ar="بطاقة الوضوح" data-en="Scorecard">بطاقة الوضوح</a></li>
-      <li><a href="#diagnostic" data-ar="التشخيص" data-en="Diagnostic">التشخيص</a></li>
-      <li><a href="#process" data-ar="كيف نعمل" data-en="Process">كيف نعمل</a></li>
-      <li><a href="#services" data-ar="الخدمات" data-en="Services">الخدمات</a></li>
-      <li><a href="#evidence" data-ar="الأدلة" data-en="Evidence">الأدلة</a></li>
-      <li><a href="#about" data-ar="من نحن" data-en="About">من نحن</a></li>
-      <li><a href="#insights" data-ar="رؤى" data-en="Insights">رؤى</a></li>
-      <li><a href="#articles" data-ar="مقالات" data-en="Articles">مقالات</a></li>
-      <li><a href="#faq" data-ar="أسئلة" data-en="FAQ">أسئلة</a></li>
-      <li><a href="#contact" data-ar="تواصل" data-en="Contact">تواصل</a></li>
+      <li><a href="/#why" data-ar="المشكلة" data-en="The problem">المشكلة</a></li>
+      <li><a href="/clarity-scan/">Clarity Scan</a></li>
+      <li><a href="/#method" data-ar="المنهجية" data-en="Method">المنهجية</a></li>
+      <li><a href="/diagnostic/#scorecard" data-ar="بطاقة الوضوح" data-en="Scorecard">بطاقة الوضوح</a></li>
+      <li><a href="/diagnostic/" data-ar="التشخيص" data-en="Diagnostic">التشخيص</a></li>
+      <li><a href="/diagnostic/#process" data-ar="كيف نعمل" data-en="Process">كيف نعمل</a></li>
+      <li><a href="/services/" data-ar="الخدمات" data-en="Services">الخدمات</a></li>
+      <li><a href="/services/#evidence" data-ar="الأدلة" data-en="Evidence">الأدلة</a></li>
+      <li><a href="/about/" data-ar="من نحن" data-en="About">من نحن</a></li>
+      <li><a href="/insights/#insights" data-ar="رؤى" data-en="Insights">رؤى</a></li>
+      <li><a href="/insights/#articles" data-ar="مقالات" data-en="Articles">مقالات</a></li>
+      <li><a href="/diagnostic/#faq" data-ar="أسئلة" data-en="FAQ">أسئلة</a></li>
+      <li><a href="/contact/" data-ar="تواصل" data-en="Contact">تواصل</a></li>
     </ul>
     <div class="foot-meta footrow">
       <span data-ar="المبارك (El Mubarak Agency) — استشارات التسويق وتطوير الأعمال" data-en="El Mubarak Agency (المبارك) — Strategic Marketing &amp; Business Development">المبارك (El Mubarak Agency) — استشارات التسويق وتطوير الأعمال</span>
@@ -775,7 +378,6 @@
 <script src="/js/config.js" defer></script>
 <script src="/js/i18n.js" defer></script>
 <script src="/js/services.js" defer></script>
-<script src="/js/home.js" defer></script>
 <script src="/js/shell.js" defer></script>
 </body>
 </html>

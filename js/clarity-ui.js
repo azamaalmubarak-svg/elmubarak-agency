@@ -332,7 +332,7 @@
     return el("div", { class: "res-actions" }, [
       el("p", { class: "res-text", text: t(COPY.ctaFull) }),
       el("div", { class: "scan-actions" }, [
-        el("a", { class: "btn btn-primary", href: "/#contact", text: t(C.cta.requestDiagnostic) }),
+        el("a", { class: "btn btn-primary", href: "/contact/", text: t(C.cta.requestDiagnostic) }),
         wa,
         button("btn-ghost", t(COPY.report), function () { go("report"); }),
         button("btn-ghost", t(COPY.share), shareResult),
